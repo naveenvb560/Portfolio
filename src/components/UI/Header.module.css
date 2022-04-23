@@ -1,0 +1,74 @@
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
+  padding: 15px;
+  margin-top: 20px;
+  justify-content: space-around;
+}
+.item1 {
+  font-size: 17px;
+  text-align: center;
+  color: white;
+  font-family: 'Bahnschrift';
+  grid-column: 2;
+  grid-row: 1;
+  transition: transform .2s;
+}
+.item2 {
+  font-size: 17px;
+  text-align: center;
+  color: white;
+  font-family: 'Bahnschrift';
+  grid-column: 3;
+  grid-row: 1;
+  transition: transform .2s;
+}
+
+.item3 {
+  font-size: 17px;
+  text-align: center;
+  color: white;
+  font-family: 'Bahnschrift';
+  grid-column: 4;
+  grid-row: 1;
+  transition: transform .2s;
+}
+
+.item4 {
+  font-size: 17px;
+  text-align: center;
+  color: white;
+  font-family: 'Bahnschrift';
+  grid-column: 5;
+  grid-row: 1;
+  transition: transform .2s;
+}
+
+.item5 {
+  float: right;
+  grid-column: 12;
+  justify-content: end;
+  grid-row: 1;
+  display: flex;
+}
+
+.item1:hover {
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2); 
+    transform: scale(1.2); 
+}
+.item2:hover {
+  -ms-transform: scale(1.2);
+  -webkit-transform: scale(1.2); 
+  transform: scale(1.2); 
+}
+.item3:hover {
+  -ms-transform: scale(1.2);
+  -webkit-transform: scale(1.2); 
+  transform: scale(1.2); 
+}
+.item4:hover {
+  -ms-transform: scale(1.2);
+  -webkit-transform: scale(1.2); 
+  transform: scale(1.2); 
+}

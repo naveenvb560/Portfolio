@@ -1,0 +1,31 @@
+.facebook {
+    max-width: 100%;
+    height: auto;
+}
+.github {
+    max-width: 100%;
+    height: auto;
+}
+
+.instagram {
+    max-width: 100%;
+    height: auto;
+}
+
+.gmail {
+    max-width: 100%;
+    height: auto;
+}
+
+li {
+    list-style:none ;
+    margin-right: 30px;
+    max-width: 6%;
+    transition: transform .2s;
+}
+
+li:hover {
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2); 
+    transform: scale(1.2); 
+  }
