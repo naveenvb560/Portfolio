@@ -9,10 +9,10 @@ const About = () => {
     return (
         <div className={classes.container}>
             <div className={classes.item1}>
-                <img src={photo} alt="profile_pic"></img>
+                <img className={classes.img} src={photo} alt="profile_pic"></img>
             </div>
             <div className={classes.item2}>
-                <h2>{AboutTitle}</h2>
+                <h2>Hello I'm <span style={{color: "#BB2222"}}>Naveen.</span><span style={{display: "inline-block"}}>I'm a Software Engineer</span></h2>
             </div>
             <div className={classes.item3}>
                 <p>{AboutDescription}</p>
