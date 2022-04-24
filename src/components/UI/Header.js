@@ -1,19 +1,49 @@
 import React from "react";
 import MediaLink from '../Media/MediaLinks'
 import classes from './Header.module.css'
+import { NavLink } from "react-router-dom";
 
 const Header = () => {
 
+    const activeStyle ={
+        fontSize: "20px",
+        textAlign: "center",
+        color: "#BB2222",
+        fontFamily: "Bahnschrift",
+        textDecoration: 'none',
+        borderBottom: "2px solid #BB2222"
+    }
+
+    const inactiveStyle ={
+        fontSize: "20px",
+        textAlign: "center",
+        color: "#C1B8B8",
+        fontFamily: "Bahnschrift",
+        textDecoration: 'none',
+    }
+
     return (
 <div className={classes.container}>
-  <div className={classes.item1}>Home</div>
-  <div className={classes.item2}>Projects</div>
-  <div className={classes.item3}>Experiences</div>  
-  <div className={classes.item4}>About</div>
+  <div className={classes.item1}>
+  <NavLink style={({ isActive }) =>
+              isActive ? activeStyle : inactiveStyle} to="/">Home</NavLink>
+  </div>
+  <div className={classes.item2}>
+  <NavLink style={({ isActive }) =>
+              isActive ? activeStyle : inactiveStyle} to="Projects">Projects</NavLink>
+  </div>
+  <div className={classes.item3}>
+  <NavLink style={({ isActive }) =>
+              isActive ? activeStyle : inactiveStyle} to="/Experiences">Experiences</NavLink>
+      </div>  
+  <div className={classes.item4}>
+  <NavLink style={({ isActive }) =>
+              isActive ? activeStyle : inactiveStyle} to="Skills">My Skills</NavLink></div>
   <div className={classes.item5}>
       <MediaLink />
   </div>
 </div>
+
     )
 
 }

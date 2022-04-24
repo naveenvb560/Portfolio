@@ -1,0 +1,39 @@
+.shape4 {
+        position: absolute;
+        top: 20%;
+        left: 70%;
+        transform: rotate(230deg);
+        opacity: .2;
+        max-width: 15%;
+
+}
+
+.shape5 {
+    position: absolute;
+    top: 75%;
+    left: 10%;
+    transform: rotate(40deg);
+    opacity: .2;
+    max-width: 15%;
+
+}
+
+.shape52 {
+    position: absolute;
+    top: 80%;
+    left: 40%;
+    transform: rotate(1deg);
+    opacity: .2;
+    max-width: 15%;
+
+}
+
+.shape53 {
+    position: absolute;
+    top: 70%;
+    left: 70%;
+    transform: rotate(140deg);
+    opacity: .2;
+    max-width: 15%;
+
+}
