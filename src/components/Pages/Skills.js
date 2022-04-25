@@ -16,9 +16,7 @@ const Skills =()=> {
 
     return (
         <React.Fragment>
-        <h2>Skills</h2>
-        <br />
-        <br />
+        <h2 style={{marginLeft: "10%"}}>My Skills</h2>
         <div className={classes.container}>
             {skillsArray.map((skill)=>           
                <div key={skill.id} className={dynamicClassName(skill.id)}> 

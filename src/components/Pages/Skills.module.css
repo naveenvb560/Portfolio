@@ -1,16 +1,13 @@
 .container {
     display: grid;
-    grid-template-columns: 10% auto auto auto 1%;
-    margin-top: 10px;
-    column-gap: 20px;
-    justify-content: space-around;
+    grid-template-columns: auto auto auto auto 1%;
+    column-gap: 160px;
   }
 
 
   .item1 {
     grid-column: 2;
     width: fit-content;
-    padding-bottom: 40px;
     transition: transform .2s;
   }
 

@@ -5,14 +5,12 @@ import myData from '../../assets/Data.json';
 import Resume from '../../assets/Resume.pdf'
 import Button from "../UI/Button";
 import { useNavigate } from "react-router-dom";
-
 const Home = () => {
     const navigate = useNavigate()
     const viewProjectHandler=()=> {
 
         navigate('Projects')
     }
-
     const viewProjectStyle = {
         backgroundColor: "#BB2222",
         borderRadius: "9px",

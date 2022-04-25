@@ -6,38 +6,82 @@
         {
             "id": 1,
             "name": "Javascript",
-            "percentage": "75%",
-            "projectlist": [1, 2]
+            "percentage": 75,
+            "projectlist": [1, 2],
+            "experiencelist": [1]
         },
         {
             "id": 2,
             "name": "Python",
-            "percentage": "82%",
-            "projectlist": [1, 2]
+            "percentage": 82,
+            "projectlist": [1, 2],
+            "experiencelist": [1]
         },
         {
             "id": 3,
             "name": "Tool Design",
-            "percentage": "75%",
-            "projectlist": [1, 2]
+            "percentage": 75,
+            "projectlist": [1, 2],
+            "experiencelist": [1]
         },
         {
             "id": 4,
             "name": "Algorithm",
-            "percentage": "70%",
-            "projectlist": [1, 2]
+            "percentage": 70,
+            "projectlist": [1, 2],
+            "experiencelist": [1]
         },
         {
             "id": 5,
             "name": "SQL",
-            "percentage": "55%",
-            "projectlist": [1, 2]
+            "percentage": 55,
+            "projectlist": [1, 2],
+            "experiencelist": [1]
         },
         {
             "id": 6,
             "name": "ReactJS",
-            "percentage": "85%",
-            "projectlist": [1, 2]
+            "percentage": 85,
+            "projectlist": [1, 2],
+            "experiencelist": [1]
+        }
+    ],
+    "Experience": [
+        {
+            "id": 1,
+            "compant": "Wipro",
+            "details": "",
+            "months": 31,
+            "designation": "",
+            "projects": [2, 3],
+            "awards": [{
+                "name": "",
+                "details": "",
+                "link": ""
+            }]
+        }
+    ],
+    "projects": [
+        {
+            "id": 1,
+            "name": "Benji Chatbot",
+            "details": "Lorem ipsum dolor sit amet. Est dignissimos dicta et eius repellat et adipisci numquam et labore molestias sed minusperspiciatis est unde labore qui debitis libero",
+            "link": "",
+            "team_members": 3
+        },
+        {
+            "id": 2,
+            "name": "Benji Chatbot",
+            "details": "Lorem ipsum dolor sit amet. Est dignissimos dicta et eius repellat et adipisci numquam et labore molestias sed minusperspiciatis est unde labore qui debitis libero",
+            "link": "",
+            "team_members": 3
+        },
+        {
+            "id": 3,
+            "name": "Benji Chatbot",
+            "details": "Lorem ipsum dolor sit amet. Est dignissimos dicta et eius repellat et adipisci numquam et labore molestias sed minusperspiciatis est unde labore qui debitis libero",
+            "link": "",
+            "team_members": 3
         }
     ]
 }

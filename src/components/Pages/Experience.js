@@ -2,7 +2,9 @@ import React from "react";
 
 const Experience =()=> {
 return (
-    <div></div>
+    <div>
+            <h2 style={{marginLeft: "10%"}}>My Experiences</h2>
+    </div>
 )
 }
 

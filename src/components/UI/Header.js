@@ -6,12 +6,11 @@ import { NavLink } from "react-router-dom";
 const Header = () => {
 
     const activeStyle ={
-        fontSize: "20px",
+        fontSize: "22px",
         textAlign: "center",
         color: "#BB2222",
         fontFamily: "Bahnschrift",
         textDecoration: 'none',
-        borderBottom: "2px solid #BB2222"
     }
 
     const inactiveStyle ={
@@ -38,7 +37,7 @@ const Header = () => {
       </div>  
   <div className={classes.item4}>
   <NavLink style={({ isActive }) =>
-              isActive ? activeStyle : inactiveStyle} to="Skills">My Skills</NavLink></div>
+              isActive ? activeStyle : inactiveStyle} to="Skills">Skills</NavLink></div>
   <div className={classes.item5}>
       <MediaLink />
   </div>
