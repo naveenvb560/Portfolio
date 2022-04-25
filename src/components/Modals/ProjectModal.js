@@ -20,17 +20,38 @@ const ProjectModal = (props) => {
         fontSize: "16px",
         fontFamily: 'Bahnschrift',
     }
+
+    const projectModal = project.id %2 === 0 ?{
+        marginLeft: "33%",
+        width: "60%"
+    }: {
+        marginLeft: "10%",
+        width: "60%"
+    }
+
+    const projectName = project.id %2 === 0 ?{
+        color: "#3AF1F8",
+        fontSize: "25px",
+        fontFamily: "Bahnschrift",
+        textAlign: "left"
+       }: 
+       {
+        color: "#3AF1F8",
+        fontSize: "25px",
+        fontFamily: "Bahnschrift", 
+        textAlign: "center"}
+    
     return (
         <React.Fragment>
             <br />
-            <div className={classes.projectmodal}>
+            <div style={projectModal}>
                 <div className={classes.header}>
-                    <h4 className={classes.projectname}>{project.name}</h4>
+                    <h4 style={projectName}>{project.name}</h4>
                 </div>
                 <div>
                     <p className={classes.projectdetails}>{project.details}</p>
                 </div>
-                <div>
+                <div className={classes.projectbutton}>
                 <Button onClick={viewProjectHandler} style={viewProjectStyle}>View More</Button>
                 </div> 
             </div>

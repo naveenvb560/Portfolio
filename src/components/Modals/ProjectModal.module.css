@@ -1,18 +1,11 @@
-.projectmodal {
-    margin-left: 10%;
-    width: 65%;
-}
 
-
-.projectname {
-    color: #3AF1F8;
-    font-size: 25px;
-    font-family: 'Bahnschrift';
-    text-align: center;
-}
 
 .projectdetails {
     color: #948989;
     font-size: 19px;
     font-family: 'Bahnschrift';
+}
+
+.projectbutton {
+ text-align: center;
 }
