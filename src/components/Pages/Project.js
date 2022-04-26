@@ -9,7 +9,7 @@ const Project =()=> {
 
 return (
     <div>
-    <h2 style={{marginLeft: "10%"}}>My Projects</h2>
+    <h3 style={{marginLeft: "10%"}}>My Projects</h3>
         {projectList.map((project)=> 
         <div className={classes.parent} key={project.id}>
             <ProjectModal project={project}/>

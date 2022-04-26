@@ -49,8 +49,8 @@
     "Experience": [
         {
             "id": 1,
-            "compant": "Wipro",
-            "details": "",
+            "name": "Wipro Technologies",
+            "details": "Lorem ipsum dolor sit amet. Est dignissimos dicta et eius repellat et adipisci numquam et labore molestias sed minusperspiciatis est unde labore qui debitis libero",
             "months": 31,
             "designation": "",
             "projects": [2, 3],

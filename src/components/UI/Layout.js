@@ -9,19 +9,9 @@ import classes from './Layout.module.css'
 
 const Layout =(props)=> {
 
-    const layoutStyles = {
-        backgroundImage: `url(${background})`,
-        width: "100%",
-        height: "100%",
-        position: "absolute",
-        minWidth: "100%",
-        minHeight: "100%",
-        top: "0",
-        left: "0"
-    }
 
     return (
-        <div style={layoutStyles}>
+        <div>
             <img className={classes.shape4} src={shape4} alt="" />
             <img className={classes.shape5} src={shape5} alt="" />
             <img className={classes.shape52} src={shape5} alt="" />

@@ -7,5 +7,12 @@
 }
 
 .projectbutton {
- text-align: center;
+ text-align: Left;
+ padding-bottom: 2%;
+ transition: transform .1s;
+ width: fit-content;
 }
+
+.projectbutton:hover {
+    transform: scale(1.1); 
+  }

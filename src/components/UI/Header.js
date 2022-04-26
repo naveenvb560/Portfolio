@@ -6,7 +6,7 @@ import { NavLink } from "react-router-dom";
 const Header = () => {
 
     const activeStyle ={
-        fontSize: "22px",
+        fontSize: "24px",
         textAlign: "center",
         color: "#BB2222",
         fontFamily: "Bahnschrift",
@@ -14,7 +14,7 @@ const Header = () => {
     }
 
     const inactiveStyle ={
-        fontSize: "20px",
+        fontSize: "22px",
         textAlign: "center",
         color: "#C1B8B8",
         fontFamily: "Bahnschrift",

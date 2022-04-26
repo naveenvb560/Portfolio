@@ -1,6 +1,7 @@
 import React from "react";
 import classes from './ProjectModal.module.css'
 import Button from '../UI/Button'
+import Card from '../UI/Card'
 
 const ProjectModal = (props) => {
 
@@ -21,29 +22,20 @@ const ProjectModal = (props) => {
         fontFamily: 'Bahnschrift',
     }
 
-    const projectModal = project.id %2 === 0 ?{
-        marginLeft: "33%",
-        width: "60%"
-    }: {
-        marginLeft: "10%",
-        width: "60%"
+    const projectModal = {
+        marginLeft: "5%",
+        marginRight: "5%",
     }
 
-    const projectName = project.id %2 === 0 ?{
+    const projectName = {
         color: "#3AF1F8",
         fontSize: "25px",
         fontFamily: "Bahnschrift",
         textAlign: "left"
-       }: 
-       {
-        color: "#3AF1F8",
-        fontSize: "25px",
-        fontFamily: "Bahnschrift", 
-        textAlign: "center"}
+       }
     
     return (
-        <React.Fragment>
-            <br />
+        <Card>
             <div style={projectModal}>
                 <div className={classes.header}>
                     <h4 style={projectName}>{project.name}</h4>
@@ -55,7 +47,7 @@ const ProjectModal = (props) => {
                 <Button onClick={viewProjectHandler} style={viewProjectStyle}>View More</Button>
                 </div> 
             </div>
-        </React.Fragment>
+        </Card>
     )
 }
 

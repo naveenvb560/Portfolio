@@ -1,0 +1,19 @@
+
+
+.experiencedetails {
+    color: #948989;
+    font-size: 19px;
+    font-family: 'Bahnschrift';
+}
+
+.experiencebutton {
+ text-align: Left;
+ padding-bottom: 5%;
+ padding-top: 3%;
+ transition: transform .1s;
+ width: fit-content;
+}
+
+.experiencebutton:hover {
+    transform: scale(1.1); 
+  }
