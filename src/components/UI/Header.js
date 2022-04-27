@@ -9,7 +9,7 @@ const Header = () => {
         fontSize: "24px",
         textAlign: "center",
         color: "#BB2222",
-        fontFamily: "Bahnschrift",
+        fontFamily: "Futura",
         textDecoration: 'none',
     }
 
@@ -17,7 +17,7 @@ const Header = () => {
         fontSize: "22px",
         textAlign: "center",
         color: "#C1B8B8",
-        fontFamily: "Bahnschrift",
+        fontFamily: "Futura",
         textDecoration: 'none',
     }
 

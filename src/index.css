@@ -6,6 +6,6 @@
 
 
 @font-face {
-  font-family: 'Bahnschrift';
-  src: local('Bahnschrift'), url(./assets/BAHNSCHRIFT.TTF) format('truetype');
+  font-family: 'Futura';
+  src: local('Futura'), url(./assets/futura_medium_bt.ttf) format('truetype');
 }

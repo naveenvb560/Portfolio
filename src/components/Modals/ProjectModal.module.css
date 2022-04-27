@@ -3,12 +3,12 @@
 .projectdetails {
     color: #948989;
     font-size: 19px;
-    font-family: 'Bahnschrift';
+    font-family: 'Futura';
 }
 
 .projectbutton {
  text-align: Left;
- padding-bottom: 2%;
+ padding-bottom: 4%;
  transition: transform .1s;
  width: fit-content;
 }

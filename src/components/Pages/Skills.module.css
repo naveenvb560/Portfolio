@@ -3,6 +3,7 @@
     grid-template-columns: 7% 20% 20% 20% 20% 5%;
     column-gap: 1%;
     row-gap: 8%;
+    margin-bottom: 6%;
   }
 
   .item1 {

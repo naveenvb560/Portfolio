@@ -1,5 +1,4 @@
 import React from "react";
-import background from '../../assets/background.jpg'
 import shape1 from '../../assets/shape1.png'
 import shape2 from '../../assets/shape2.png'
 import shape3 from '../../assets/shape3.png'

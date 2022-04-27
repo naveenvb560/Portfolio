@@ -1,6 +1,6 @@
 import React from "react";
 import Data from '../../assets/Data.json'
-import ExperienceModal from '../Modals/ExperienceModal'
+import ProjectModal from '../Modals/ProjectModal'
 import classes from '../Pages/Experience.module.css'
 
 const Experience =()=> {
@@ -12,7 +12,7 @@ return (
     <h3 style={{marginLeft: "10%"}}>My Experiences</h3>
         {experienceList.map((experience)=> 
         <div className={classes.parent} key={experience.id}>
-            <ExperienceModal experience={experience}/>
+            <ProjectModal experience={experience}/>
         </div> )}
     </div>
 )

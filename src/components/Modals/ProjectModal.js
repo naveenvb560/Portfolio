@@ -1,15 +1,27 @@
-import React from "react";
+import React, {useState} from "react";
 import classes from './ProjectModal.module.css'
 import Button from '../UI/Button'
 import Card from '../UI/Card'
+import DetailsModal from "./DetailsModal";
 
 const ProjectModal = (props) => {
 
-    const project = props.project
+    const item = props.project? props.project: props.experience
+    const itemName = props.project? "project": "experience"
+    const [viewModal, setViewModal] = useState(false)
+
     const viewProjectHandler=()=> {
 
-        console.log('worked')
+        setViewModal({
+            item: itemName,
+            id: props.id
+        })
     }
+
+    const clearProjectModalHandler =()=> {
+        setViewModal(false)
+    }
+
     const viewProjectStyle = {
         backgroundColor: "#BB2222",
         borderRadius: "9px",
@@ -19,7 +31,7 @@ const ProjectModal = (props) => {
         paddingBottom: "5px",
         color: "white",
         fontSize: "16px",
-        fontFamily: 'Bahnschrift',
+        fontFamily: 'Futura',
     }
 
     const projectModal = {
@@ -30,18 +42,19 @@ const ProjectModal = (props) => {
     const projectName = {
         color: "#3AF1F8",
         fontSize: "25px",
-        fontFamily: "Bahnschrift",
+        fontFamily: "Futura",
         textAlign: "left"
        }
     
     return (
         <Card>
+            {viewModal ?<DetailsModal details={viewModal} clear={clearProjectModalHandler}>Hello</DetailsModal>: null}
             <div style={projectModal}>
                 <div className={classes.header}>
-                    <h4 style={projectName}>{project.name}</h4>
+                    <h4 style={projectName}>{item.name}</h4>
                 </div>
                 <div>
-                    <p className={classes.projectdetails}>{project.details}</p>
+                    <p className={classes.projectdetails}>{item.details}</p>
                 </div>
                 <div className={classes.projectbutton}>
                 <Button onClick={viewProjectHandler} style={viewProjectStyle}>View More</Button>

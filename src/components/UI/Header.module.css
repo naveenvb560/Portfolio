@@ -9,7 +9,7 @@
   font-size: 20px;
   text-align: center;
   color: #C1B8B8;
-  font-family: 'Bahnschrift';
+  font-family: 'Futura';
   grid-column: 2;
   grid-row: 1;
   transition: transform .2s;
@@ -18,7 +18,7 @@
   font-size: 20px;
   text-align: center;
   color: #C1B8B8;
-  font-family: 'Bahnschrift';
+  font-family: 'Futura';
   grid-column: 3;
   grid-row: 1;
   transition: transform .2s;
@@ -28,7 +28,7 @@
   font-size: 20px;
   text-align: center;
   color: #C1B8B8;
-  font-family: 'Bahnschrift';
+  font-family: 'Futura';
   grid-column: 4;
   grid-row: 1;
   transition: transform .2s;
@@ -38,7 +38,7 @@
   font-size: 20px;
   text-align: center;
   color: #C1B8B8;
-  font-family: 'Bahnschrift';
+  font-family: 'Futura';
   grid-column: 5;
   grid-row: 1;
   transition: transform .2s;

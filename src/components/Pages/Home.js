@@ -20,7 +20,7 @@ const Home = () => {
         paddingBottom: "5px",
         color: "white",
         fontSize: "16px",
-        fontFamily: 'Bahnschrift',
+        fontFamily: 'Futura',
     }
 
     const downloadResumeStyle = {
@@ -33,7 +33,7 @@ const Home = () => {
         textDecoration: 'none',
         color: "white",
         fontSize: "16px",
-        fontFamily: 'Bahnschrift',
+        fontFamily: 'Futura',
     }
 
     const AboutDescription = myData.About.description 
