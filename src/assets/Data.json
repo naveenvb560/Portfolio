@@ -66,6 +66,8 @@
             "id": 1,
             "name": "Benji Chatbot",
             "details": "Lorem ipsum dolor sit amet. Est dignissimos dicta et eius repellat et adipisci numquam et labore molestias sed minusperspiciatis est unde labore qui debitis libero",
+            "techused": [1,2],
+            "status": "completed",
             "link": "",
             "team_members": 3
         },
@@ -73,6 +75,8 @@
             "id": 2,
             "name": "Benji Chatbot",
             "details": "Lorem ipsum dolor sit amet. Est dignissimos dicta et eius repellat et adipisci numquam et labore molestias sed minusperspiciatis est unde labore qui debitis libero",
+            "techused": [1,2],
+            "status": "completed",
             "link": "",
             "team_members": 3
         },
@@ -80,6 +84,8 @@
             "id": 3,
             "name": "Benji Chatbot",
             "details": "Lorem ipsum dolor sit amet. Est dignissimos dicta et eius repellat et adipisci numquam et labore molestias sed minusperspiciatis est unde labore qui debitis libero",
+            "techused": [1,2],
+            "status": "completed",
             "link": "",
             "team_members": 3
         }

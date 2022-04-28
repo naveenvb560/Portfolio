@@ -16,3 +16,10 @@
 .projectbutton:hover {
     transform: scale(1.1); 
   }
+
+.projectname {
+    color: #3AF1F8;
+    font-size: 25px;
+    font-family: "Futura";
+    text-align: left;
+}

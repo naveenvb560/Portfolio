@@ -10,7 +10,8 @@ const Card =(props)=> {
             padding: "1%",
             marginLeft: "10%",
             marginRight: "10%",
-            backgroundColor: "#131218",
+            // backgroundColor: "#131218",
+            background: "linear-gradient(rgb(5 5 5), rgb(17 14 27))",
             "&:hover": {
             boxShadow: "0 8px 16px 0 rgba(0,0,0,0.2)"
           }

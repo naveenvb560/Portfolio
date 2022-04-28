@@ -14,7 +14,7 @@ const ProjectModal = (props) => {
 
         setViewModal({
             item: itemName,
-            id: props.id
+            id: props.id,
         })
     }
 
@@ -38,20 +38,13 @@ const ProjectModal = (props) => {
         marginLeft: "5%",
         marginRight: "5%",
     }
-
-    const projectName = {
-        color: "#3AF1F8",
-        fontSize: "25px",
-        fontFamily: "Futura",
-        textAlign: "left"
-       }
     
     return (
         <Card>
-            {viewModal ?<DetailsModal details={viewModal} clear={clearProjectModalHandler}>Hello</DetailsModal>: null}
+            {viewModal ?<DetailsModal itemData={item} details={viewModal} clear={clearProjectModalHandler}>Hello</DetailsModal>: null}
             <div style={projectModal}>
                 <div className={classes.header}>
-                    <h4 style={projectName}>{item.name}</h4>
+                    <h4 className={classes.projectname}>{item.name}</h4>
                 </div>
                 <div>
                     <p className={classes.projectdetails}>{item.details}</p>
