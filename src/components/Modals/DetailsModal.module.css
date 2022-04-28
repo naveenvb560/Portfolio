@@ -81,3 +81,12 @@ a:focus {
   font-family: "Futura";
   text-align: left;
 }
+
+.listitems {
+  color: #d8d4d4;
+  font-size: 20px;
+  font-family: "Futura";
+  text-align: left;
+  list-style-type: circle;
+  padding-bottom :3% ;
+}
