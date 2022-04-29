@@ -10,16 +10,16 @@ const MediaLink = () => {
 
     return (
         <React.Fragment>
-            <li>
+            <li className={classes.list}>
                 <img className={classes.facebook} src={facebook} alt="facebook" ></img>
             </li>
-            <li>
+            <li className={classes.list}>
                 <img className={classes.github} src={github} alt="github" ></img>
             </li>
-            <li>
+            <li className={classes.list}>
                 <img className={classes.instagram} src={instagram} alt="instagram" ></img>
             </li>
-            <li>
+            <li className={classes.list}>
                 <img className={classes.gmail} src={gmail} alt="gmail" ></img>
             </li>
         </React.Fragment>

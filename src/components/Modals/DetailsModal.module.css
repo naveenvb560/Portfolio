@@ -16,6 +16,31 @@ a:focus {
   width: 100%;
   height: 100%;
   background: linear-gradient(#050505, #110e1b);
+  animation: popup ease-in 500ms;
+  overflow-y: initial !important
+}
+
+@keyframes popup {
+  0% {
+    transform: scale(5) rotate(0);
+    opacity: 0;
+    box-shadow: 0 0 0 rgba(241, 241, 241, 0);
+  }
+  50% {
+    transform: scale(1) rotate(-0.2deg);
+    opacity: 1;
+    box-shadow: 0 0 0 rgba(241, 241, 241, 0.5);
+  }
+  75% {
+    transform: scale(1) rotate(0.2deg);
+    opacity: 1;
+    box-shadow: 0 0 250px rgba(241, 241, 241, 0.5);
+  }
+  100% {
+    transform: scale(1) rotate(0);
+    opacity: 1;
+    box-shadow: 0 0 500px rgba(241, 241, 241, 0);
+  }
 }
 
 .modalcontainer:target {
@@ -25,23 +50,18 @@ a:focus {
 .modal {
   padding: 3% 5%;
   border-radius: .8rem;
-  margin: 5% 15%;
+  height: 80%;
+  margin: 5% 25%;
   color: hsl(220, 50%, 90%);
   background: #131218;
   box-shadow: #243342, .4rem .4rem 10.2rem .2rem #4048bf4d;
-  overflow: hidden;
+  overflow-y: auto;
 }
 
-.modaltitle {
-  font-size: 3.2rem;
-}
-
-.modaltext {
-  padding: 0 4rem;
-  margin-top: 4rem;
-
-  font-size: 1.6rem;
-  line-height: 2;
+.projectnamecontainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .link2 {
@@ -51,25 +71,30 @@ a:focus {
   float: right;
   background-color: inherit;
   font-size: 2.2rem;
-  transition: .2s;
 }
 
 .link2::before {
   content: '×';
+  animation: ease-out 1s;
+  transform: translateX(100%)
+}
 
-  transform: translateY(-.1rem);
+.projectIcon {
+  max-height: 5%;
+  max-width: 10%;
+  margin-right: 5%;
 }
 
 .link2:hover,
 .link2:focus {
-  background: #0d80f2;
-  border-color: #0d80f2;
+  background: #ad2209;
+  border-color: #db0e0e;
   transform: translateY(-.2rem);
 }
 
 .smallheading {
   color: #3AF1F8;
-  font-size: 21px;
+  font-size: 18px;
   font-weight: 400;
   font-family: 'Futura';
 }
@@ -84,9 +109,29 @@ a:focus {
 
 .listitems {
   color: #d8d4d4;
-  font-size: 20px;
+  font-size: 15px;
   font-family: "Futura";
   text-align: left;
+  max-width: none;
   list-style-type: circle;
   padding-bottom :3% ;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px #4048bf4d; 
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  box-shadow: inset 0 0 6px #4048bf4d; 
+}
+
+.samelinecontainer {
+  display: flex;
+  align-items: center;
 }
