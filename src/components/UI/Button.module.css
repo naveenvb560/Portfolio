@@ -1,0 +1,35 @@
+.rotatebutton {
+    display:inline-block;
+    width:150px;
+    height: 30px;
+    text-align:center;
+    transform-style:preserve-3d;
+    cursor:pointer;
+    transition:all .3s ease;
+    font-family: 'arial'
+  }
+  .rotatebutton .rotatebuttonface, .rotatebutton .rotatebuttonfaceback {
+    position:absolute;
+    display:block;
+    border:1px solid #36966a;
+    transition:all .5s;
+    color:#29a76e;
+    text-decoration:none;
+    width:150px;
+    height: 30px;
+    line-height:30px;
+    border-radius: 15px;
+  }
+  .rotatebutton .rotatebuttonface {
+    background-color:#35495e;
+    transform:translateZ(15px);
+  }
+  .rotatebutton .rotatebuttonfaceback {
+    background-color:#282b534d;
+    color:#a04826;
+    border:1px solid #a04826;
+    transform:rotateX(-90deg) translateZ(15px);
+  }
+  .rotatebutton:hover {
+    transform:rotateX(90deg);
+  }

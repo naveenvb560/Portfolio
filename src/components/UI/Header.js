@@ -8,7 +8,7 @@ const Header = () => {
     const activeStyle ={
         fontSize: "24px",
         textAlign: "center",
-        color: "#BB2222",
+        color: "whitesmoke",
         fontFamily: "Futura",
         textDecoration: 'none',
     }

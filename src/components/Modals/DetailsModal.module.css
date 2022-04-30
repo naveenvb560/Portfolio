@@ -22,8 +22,8 @@ a:focus {
 
 @keyframes popup {
   0% {
-    transform: scale(5) rotate(0);
-    opacity: 0;
+    transform: scale(.3) rotate(0);
+    opacity: 0.5;
     box-shadow: 0 0 0 rgba(241, 241, 241, 0);
   }
   50% {
@@ -93,7 +93,7 @@ a:focus {
 }
 
 .smallheading {
-  color: #3AF1F8;
+  color: #319497;
   font-size: 18px;
   font-weight: 400;
   font-family: 'Futura';
@@ -101,7 +101,7 @@ a:focus {
 
 
 .projectname {
-  color: #3AF1F8;
+  color: #33b1b6;
   font-size: 25px;
   font-family: "Futura";
   text-align: left;

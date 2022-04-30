@@ -11,17 +11,6 @@ const Home = () => {
 
         navigate('Projects')
     }
-    const viewProjectStyle = {
-        backgroundColor: "#BB2222",
-        borderRadius: "9px",
-        paddingRight: "25px",
-        paddingLeft: "25px",
-        paddingTop: "5px",
-        paddingBottom: "5px",
-        color: "white",
-        fontSize: "16px",
-        fontFamily: 'Futura',
-    }
 
     const downloadResumeStyle = {
         borderRadius: "9px",
@@ -50,7 +39,7 @@ const Home = () => {
             </div>
             <div className={classes.item6}>
             <div className={classes.item4}>
-                <Button onClick={viewProjectHandler} style={viewProjectStyle}>View Projects</Button>
+                <Button onClick={viewProjectHandler} >View Projects</Button>
             </div>
             <div className={classes.item5}>
                 <a href={Resume} style={downloadResumeStyle} download>Download Resume</a>

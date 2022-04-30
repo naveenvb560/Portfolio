@@ -1,43 +1,43 @@
 .circlewrap {
-    margin-top: 50px;
-    width: 150px;
-    height: 150px;
+    margin-top: 60px;
+    width: 120px;
+    height: 120px;
     background: #000000;
     border-radius: 50%;
-    border: 1px solid #cdcbd0;
+    border: 1px solid transparent;
   }
   
   .circlewrap .circle .mask,
   .circlewrap .circle .fill {
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
     position: absolute;
     border-radius: 50%;
   }
   
   .circlewrap .circle .mask {
-    clip: rect(0px, 150px, 150px, 75px);
+    clip: rect(0px, 120px, 120px, 50px);
   }
   
   .circlewrap .insidecircle {
-    width: 122px;
-    height: 122px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
     background: #000000;
-    line-height: 120px;
+    line-height: 100px;
     text-align: center;
-    margin-top: 14px;
-    margin-left: 14px;
-    color: #BB2222;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: #c5c6c7;
     position: absolute;
     z-index: 100;
-    font-weight: 700;
-    font-size: 2em;
+    font-weight: 600;
+    font-size: 1.5em;
   }
   
   .mask .fill {
-    clip: rect(0px, 75px, 150px, 0px);
-    background-color: #BB2222;
+    clip: rect(0px, 50px, 120px, 0px);
+    background-color: #a03c6e;
   }
 /* 
   .mask.full,
@@ -57,8 +57,8 @@
 
 .text {
     left: 0;
-    padding: 20px;
-    color:white;
+    padding: 16px;
+    color:rgb(199, 196, 196);
     width: 100%;
-    font-size: 20px;
+    font-size: 18px;
 }
