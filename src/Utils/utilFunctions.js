@@ -39,3 +39,11 @@ export const getProjects=(projectIDs)=> {
     }
 
 }
+
+export const dynamicClassName=(id, classes, repeatrow)=> {
+    if (id%repeatrow === 0) {
+        return classes[`item${repeatrow}`]
+    }
+    const item = `item${id%repeatrow}`
+    return classes[item]
+}

@@ -21,19 +21,6 @@ const ProjectModal = (props) => {
     const clearProjectModalHandler =()=> {
         setViewModal(false)
     }
-
-    const viewProjectStyle = {
-        backgroundColor: "#BB2222",
-        borderRadius: "9px",
-        paddingRight: "25px",
-        paddingLeft: "25px",
-        paddingTop: "5px",
-        paddingBottom: "5px",
-        color: "white",
-        fontSize: "16px",
-        fontFamily: 'Futura',
-    }
-
     const projectModal = {
         marginLeft: "5%",
         marginRight: "5%",
@@ -50,7 +37,7 @@ const ProjectModal = (props) => {
                     <p className={classes.projectdetails}>{item.details}</p>
                 </div>
                 <div className={classes.projectbutton}>
-                <Button onClick={viewProjectHandler} style={viewProjectStyle}>View More</Button>
+                <Button onClick={viewProjectHandler}>View More</Button>
                 </div> 
             </div>
         </Card>

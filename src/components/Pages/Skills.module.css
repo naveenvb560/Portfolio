@@ -2,8 +2,8 @@
     display: grid;
     grid-template-columns: 7% 20% 20% 20% 20% 5%;
     margin-bottom: 6%;
-    column-gap: 1%;
-    row-gap: 5%;
+    column-gap: 1.5%;
+    row-gap: 10%;
   }
 
   .item1 {
@@ -54,9 +54,9 @@
     transform: scale(1.1); 
   }
   
-  /* .item4:hover {
+  .item4:hover {
     -ms-transform: scale(1.1);
     -webkit-transform: scale(1.1); 
     transform: scale(1.1); 
 
-  } */
+  }
