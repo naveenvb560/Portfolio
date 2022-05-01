@@ -24,6 +24,8 @@ const ProjectModal = (props) => {
     const projectModal = {
         marginLeft: "5%",
         marginRight: "5%",
+        padding: "3% 1% 3% 1%"
+
     }
     
     return (

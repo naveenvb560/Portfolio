@@ -3,7 +3,10 @@
   box-sizing: border-box;
 }
 
-
+:root {
+  --container-grid-number: 3;
+  --container-skill-grid-number: 4;
+}
 
 @font-face {
   font-family: 'Futura';

@@ -7,7 +7,7 @@ const SkillsModal = (props) => {
     const degree = Math.round(180 * (percentage/100)) 
 
     const stl = {
-      animation: `${classes.fill_animation} ease-in-out 2s`,
+      animation: `${classes.fill_animation} ease-in-out 2s 1.2s`,
       transform: `rotate(${degree}deg)`
     }
 

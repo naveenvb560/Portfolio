@@ -6,7 +6,6 @@ const Card =(props)=> {
 
             transition: "0.3s",
             borderRadius: "25px",
-            marginTop: "2%",
             padding: "1%",
             marginLeft: "10%",
             marginRight: "10%",
