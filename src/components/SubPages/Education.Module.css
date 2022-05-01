@@ -1,0 +1,23 @@
+.container {
+    display: grid;
+    grid-template-columns: 10% 40% 40% 10%;
+    margin-top: 80px;
+    justify-content: space-around;
+    animation: education_page_load ease-in-out 1s
+  }
+
+.item1 {
+    grid-column: 2;
+    width: fit-content;
+    grid-row: 1;
+}
+
+@keyframes education_page_load{
+    0% {
+      transform: translateX(-100%);
+    }
+
+    100% {
+      transform: translateX(0%);
+    }
+  }

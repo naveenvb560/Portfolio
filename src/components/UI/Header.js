@@ -1,5 +1,5 @@
 import React from "react";
-import MediaLink from '../Media/MediaLinks'
+import MediaLink from '../SubPages/MediaLinks'
 import classes from './Header.module.css'
 import { NavLink } from "react-router-dom";
 

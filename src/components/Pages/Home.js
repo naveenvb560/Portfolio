@@ -5,6 +5,9 @@ import myData from '../../assets/Data.json';
 import Resume from '../../assets/Resume.pdf'
 import Button from "../UI/Button";
 import { useNavigate } from "react-router-dom";
+import Footer from "../UI/Footer";
+import Education from "../SubPages/Education";
+
 const Home = () => {
     const navigate = useNavigate()
     const viewProjectHandler=()=> {
@@ -27,6 +30,7 @@ const Home = () => {
 
     const AboutDescription = myData.About.description 
     return (
+        <div>
         <div className={classes.container}>
             <div className={classes.item1}>
                 <img className={classes.img} src={photo} alt="profile_pic"></img>
@@ -47,6 +51,12 @@ const Home = () => {
             </div> 
 
         </div>
+        <div>
+            <Education></Education>
+        </div>
+        <Footer></Footer>
+        </div>
+
     )
 
 }
