@@ -28,11 +28,11 @@ const DetailsModal = (props) => {
                 </div>
                 <div>
                     <h5 className={classes.smallheading}>Team members:</h5>
-                    <label>{project.team_members}</label>
+                    <label className={classes.labelstyle}>{project.team_members}</label>
                 </div>
                 <div >
                     <h5 className={classes.smallheading}>Source Code/Link:</h5>
-                    <label>{project.team_members}</label>
+                    <label className={classes.labelstyle}>{project.team_members}</label>
                 </div>
             </div>
     }
@@ -52,19 +52,19 @@ const DetailsModal = (props) => {
                 </div>
                 <div>
                     <h5 className={classes.smallheading}>Designation:</h5>
-                    <label>{experience.designation}</label>
+                    <label className={classes.labelstyle}>{experience.designation}</label>
                 </div>
                 <div>
                     <h5 className={classes.smallheading}>Joined Date:</h5>
-                    <label>{experience.joined_date}</label>
+                    <label className={classes.labelstyle}>{experience.joined_date}</label>
                 </div>
                 {experience.status === "completed" ?<div>
                     <h5 className={classes.smallheading}>Resigned Date:</h5>
-                    <label>{experience.resigned_date}</label>
+                    <label className={classes.labelstyle}>{experience.resigned_date}</label>
                 </div>: null}
                 <div>
                     <h5 className={classes.smallheading}>Experience in months:</h5>
-                    <label>{experience.months}</label>
+                    <label className={classes.labelstyle}>{experience.months}</label>
                 </div>
                 <div>
                     <h5 className={classes.smallheading}>Projects Worked:</h5>

@@ -4,6 +4,10 @@
 }
 
 :root {
+  --primary-color: #000401;
+  --secondary-color: #E5E8E8;
+  --tertiary-color: #8D9797;
+  --addon-color: #4E545C;
   --container-grid-number: 3;
   --container-skill-grid-number: 4;
 }

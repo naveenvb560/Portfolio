@@ -1,7 +1,7 @@
 
 
 .projectdetails {
-    color: #948989;
+    color: var(--tertiary-color);
     font-size: 18px;
     font-family: 'Futura';
 }
@@ -18,7 +18,7 @@
   }
 
 .projectname {
-    color: #26b3b8;
+    color: var(--secondary-color);
     font-size: 22px;
     font-family: "Futura";
     text-align: left;

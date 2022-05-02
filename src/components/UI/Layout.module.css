@@ -49,6 +49,6 @@
 }
 
 body {
-    background-color: black;
+    background-color: var(--primary-color);
 
 }

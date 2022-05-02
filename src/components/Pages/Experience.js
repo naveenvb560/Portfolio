@@ -12,7 +12,7 @@ const Experience =()=> {
 
 return (
     <div>
-    <h3 style={{marginLeft: "10%", marginTop: "3%",  color: "rgb(204 198 198 / 93%)", fontSize: "25px"}}>My Experiences</h3>
+    <h3 style={{marginLeft: "10%", marginTop: "3%",  color: "var(--secondary-color)", fontSize: "25px"}}>My Experiences</h3>
     <div className={classes.container}>
         {experienceList.map((experience)=> 
         <div className={dynamicClassName(experience.id, classes, 3)} key={experience.id}> 

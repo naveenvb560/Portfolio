@@ -86,14 +86,14 @@
 }
 
 h2 {
-    color: #F1E6E6;
+    color: var(--tertiary-color);
     font-size: 41px;
     font-family: 'Futura';
 }
 
 
 p {
-    color: #948989;
+    color: var(--tertiary-color);
     font-size: 20px;
     font-family: 'Futura';
 }

@@ -8,7 +8,7 @@ const Header = () => {
     const activeStyle ={
         fontSize: "24px",
         textAlign: "center",
-        color: "whitesmoke",
+        color: "var(--secondary-color)",
         fontFamily: "Futura",
         textDecoration: 'none',
     }
@@ -16,7 +16,7 @@ const Header = () => {
     const inactiveStyle ={
         fontSize: "22px",
         textAlign: "center",
-        color: "#C1B8B8",
+        color: "var(--tertiary-color)",
         fontFamily: "Futura",
         textDecoration: 'none',
     }
