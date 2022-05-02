@@ -7,6 +7,7 @@ import Button from "../UI/Button";
 import { useNavigate } from "react-router-dom";
 import Footer from "../UI/Footer";
 import Education from "../SubPages/Education";
+import Contact from "../SubPages/Contact";
 
 const Home = () => {
     const navigate = useNavigate()
@@ -51,9 +52,11 @@ const Home = () => {
             </div> 
 
         </div>
-        <div>
-            <Education></Education>
-        </div>
+        <br /><br /> <br />
+        <Education></Education>
+        <br /><br /> <br />
+        <Contact></Contact>
+        <br /><br /> <br />         <br /><br /> <br />
         <Footer></Footer>
         </div>
 

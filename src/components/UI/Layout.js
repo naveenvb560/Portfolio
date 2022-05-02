@@ -11,12 +11,13 @@ const Layout =(props)=> {
 
     return (
         <div>
+            <img className={classes.shape2} src={shape2} alt="" />
             <img className={classes.shape4} src={shape4} alt="" />
             <img className={classes.shape5} src={shape1} alt="" />
             <img className={classes.shape52} src={shape5} alt="" />
-            <img className={classes.shape53} src={shape3} alt="" />
+            {/* <img className={classes.shape53} src={shape3} alt="" /> */}
             {props.children}
-        </div>
+        </div> 
     )
 }
 
