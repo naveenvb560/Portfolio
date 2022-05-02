@@ -17,9 +17,8 @@ const Home = () => {
     }
 
     const downloadResumeStyle = {
-        borderRadius: "9px",
-        paddingRight: "25px",
-        paddingLeft: "25px",
+        paddingRight: "15px",
+        paddingLeft: "15px",
         paddingTop: "5px",
         paddingBottom: "5px",
         borderBottom: "3px solid var(--addon-color)",
@@ -37,7 +36,7 @@ const Home = () => {
                 <img className={classes.img} src={photo} alt="profile_pic"></img>
             </div>
             <div className={classes.item2}>
-                <h2>Hello I'm <span style={{color: "var(--secondary-color)"}}>Naveen V B.</span><span style={{display: "inline-block"}}>I'm a Software Engineer.</span></h2>
+                <h2>Hello I'm <span style={{color: "var(--addon-color)"}}>Naveen V B.</span><span style={{display: "inline-block"}}>I'm a Software Engineer.</span></h2>
             </div>
             <div className={classes.item3}>
                 <p>{AboutDescription}</p>

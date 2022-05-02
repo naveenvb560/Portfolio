@@ -5,15 +5,23 @@ h3 {
     font-family: 'Futura';
 }
 
+
 .container {
     display: grid;
     grid-template-columns: 5% 28% 28% 28% 5%;
     margin-top: 4%;
-    max-width: 1920px;
     margin-bottom: 1%;
     column-gap: 2%;
     row-gap: 10%; 
     animation: project_page_load ease-in-out 1s
+  }
+
+  @media only screen and (min-width: 1920px) {
+    .maincontainer {
+      max-width: 1920px;
+      margin: auto
+    }
+
   }
 
   .item1 {

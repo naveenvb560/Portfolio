@@ -1,13 +1,10 @@
-@media screen and (max-width: 1002px) {
-  .container {
-    display: grid;
-    grid-template-columns: 7% 28% 28% 28% 5%;
-    margin-bottom: 6%;
-    margin-top: 5%;
-    column-gap: 1.5%;
-    row-gap: 10%;
-    animation: skill_page_load ease-in-out 1s
+@media only screen and (min-width: 1920px) {
+  .maincontainer {
+    max-width: 1920px;
+    margin: auto
   }
+
+
 }
 
 .container {

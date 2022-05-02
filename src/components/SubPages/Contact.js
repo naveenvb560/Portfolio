@@ -9,11 +9,11 @@ const Contact =()=> {
             <h2>Contact</h2>
             </div>
             <div className={classes.item2}>
-                <input className = {classes.inputstyle} placeholder="Full Name"/>
-                <input className = {classes.inputstyle} placeholder="Address"/>
+                <input id="1" type="text" className = {classes.inputstyle} placeholder="Full Name"/>
+                <input id="2" type="text" className = {classes.inputstyle} placeholder="Address"/>
             </div>
             <div className={classes.item3}>
-                <input className={classes.textareastyle} placeholder="Enter your message" />
+                <input type="text" className={classes.textareastyle} placeholder="Enter your message" />
             </div>
             <div className={classes.item4}>
                 <h3>Email</h3>

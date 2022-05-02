@@ -4,8 +4,16 @@
     margin-top: 11%;
     row-gap: 5%;
     justify-content: space-around;
+    align-items: baseline;
     animation: education_page_load ease-in-out 1s;
     column-gap: 7%;
+  }
+
+  @media only screen and (min-width: 1920px) {
+    .container {
+      max-width: 1920px;
+      margin: auto
+    }
   }
 
 .item1 {
@@ -54,6 +62,7 @@
   height: 100%;
   align-items: center;
   grid-row: 4;
+  margin-top: 6%;
 }
 
 
@@ -73,9 +82,12 @@
     outline: none;
     width: 46%;
     height: 30%;
-    border-radius: 10%;
     padding: 1%;
-    border-bottom: 1px solid var(--secondary-color);
+    border-bottom: 3px solid var(--addon-color);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    transition: transform 1s
 }
 
 .textareastyle {
@@ -83,7 +95,24 @@
     color: var(--secondary-color);
     outline: none;
     width: 99%;
-    border-radius: 10%;
+    border-bottom: 3px solid var(--addon-color);
+    border-top: none;
+    border-left: none;
+    border-right: none;
     padding: 10%;
-    border-bottom: 1px solid var(--secondary-color);
+    transition: transform 1s
+}
+
+.inputstyle:focus {
+  transform: scale(1.1);
+  border-bottom: 3px solid var(--addon-color);
+}
+.textareastyle:focus {
+  transform: scale(1.1);
+  border-bottom: 3px solid var(--addon-color);
+}
+
+::-webkit-input-placeholder { /* Edge */
+  color: var(--tertiary-color);
+  font-size: 15px; 
 }

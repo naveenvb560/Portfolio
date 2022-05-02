@@ -9,7 +9,7 @@ const Skills =()=> {
     const skillsArray = Data.Skills
 
     return (
-        <React.Fragment>
+        <div className={classes.maincontainer}>
         <h3 style={{ color: "var(--secondary-color)", margin: "3% 0% 1% 10%", fontSize: "25px"}}>My Skills</h3>
         <div className={classes.container}>
             {skillsArray.map((skill)=>
@@ -19,7 +19,7 @@ const Skills =()=> {
                 </div> 
         )}
         </div>
-        </React.Fragment>
+        </div>
 
     )
 }

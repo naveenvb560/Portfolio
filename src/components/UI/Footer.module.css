@@ -4,7 +4,15 @@
     justify-content: space-between;
     padding: 5% 5% 0% 5%;
     margin: auto;
+    box-shadow: inset 0px 7px 3px -3px rgba(95, 97, 4, .1);
 }
+
+@media only screen and (min-width: 1920px) {
+    .footer {
+      max-width: 1920px;
+      margin: auto
+    }
+  }
 
 .copyright {
     font-size: 11px;

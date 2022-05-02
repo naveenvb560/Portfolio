@@ -4,9 +4,17 @@
   padding: 15px;
   margin-top: 20px;
   justify-content: space-around;
-  animation: header_page_load ease-in-out 1s
+  animation: header_page_load ease-in-out 1s;
+
+
 }
 
+@media only screen and (min-width: 1920px) {
+  .container {
+    max-width: 1920px;
+    margin: auto
+  }
+}
  
 @keyframes header_page_load{
   0% {

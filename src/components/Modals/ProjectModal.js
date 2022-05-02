@@ -29,7 +29,7 @@ const ProjectModal = (props) => {
     }
     
     return (
-        <Card>
+        <div className={classes.parentdiv}>
             {viewModal ?<DetailsModal itemData={item} details={viewModal} clear={clearProjectModalHandler}>Hello</DetailsModal>: null}
             <div style={projectModal}>
                 <div className={classes.header}>
@@ -42,7 +42,7 @@ const ProjectModal = (props) => {
                 <Button onClick={viewProjectHandler}>View More</Button>
                 </div> 
             </div>
-        </Card>
+        </div>
     )
 }
 

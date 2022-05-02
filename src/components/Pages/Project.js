@@ -12,7 +12,7 @@ const Project =()=> {
  
 
 return (
-    <div>
+    <div className={classes.maincontainer}>
     <h3 style={{marginLeft: "10%", marginTop: "3%", color: "var(--secondary-color)" , fontSize: "25px"}}>My Projects</h3>
     <div className={classes.container}>
         {projectList.map((project)=> 
