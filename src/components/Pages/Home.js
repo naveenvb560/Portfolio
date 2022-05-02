@@ -27,7 +27,6 @@ const Home = () => {
         fontSize: "16px",
         fontFamily: 'Futura',
     }
-
     const AboutDescription = myData.About.description 
     return (
         <div>

@@ -4,7 +4,7 @@ import classes from './Header.module.css'
 import { NavLink } from "react-router-dom";
 
 const Header = () => {
-
+console.log('wokjred')
     const activeStyle ={
         fontSize: "24px",
         textAlign: "center",

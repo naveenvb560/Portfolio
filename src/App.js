@@ -8,9 +8,16 @@ import {Routes, Route} from 'react-router-dom'
 import Project from './components/Pages/Project';
 import Experience from './components/Pages/Experience';
 
-
-
 function App() {
+
+  const [width, setWidth] = React.useState(window.innerWidth)
+  const handleResize = () => {
+    if (window.innerWidth > 400 && window.innerWidth <500) {
+    setWidth(window.innerWidth); }
+  }
+  React.useEffect(() => {
+    window.addEventListener("resize", handleResize, false); 
+  }, []);
 
   return (
       <Layout>
