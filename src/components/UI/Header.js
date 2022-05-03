@@ -1,12 +1,11 @@
-import React from "react";
+import React, {useState} from "react";
 import MediaLink from '../SubPages/MediaLinks'
 import classes from './Header.module.css'
 import { NavLink } from "react-router-dom";
 
 const Header = () => {
-console.log('wokjred')
+    const [expanded, setExpanded] = useState(false)
     const activeStyle ={
-        fontSize: "24px",
         textAlign: "center",
         color: "var(--secondary-color)",
         fontFamily: "Futura",
@@ -14,15 +13,28 @@ console.log('wokjred')
     }
 
     const inactiveStyle ={
-        fontSize: "22px",
         textAlign: "center",
         color: "var(--tertiary-color)",
         fontFamily: "Futura",
         textDecoration: 'none',
     }
 
+
+    const hamburgerMenuHandler=()=> {
+            setExpanded((previousState)=> {
+                return !previousState
+            })
+        }
     return (
-<div className={classes.container}>
+        <div>
+            <div >
+                <a onClick={hamburgerMenuHandler} className={classes.hamburger}>
+                    <span className={classes.line}></span>
+                    <span className={classes.line}></span>
+                    <span className={classes.line}></span>
+                </a>
+            </div>
+<div className={expanded ? classes.container : `${classes.container} ${classes.displayhamburger}`}>
   <div className={classes.item1}>
   <NavLink style={({ isActive }) =>
               isActive ? activeStyle : inactiveStyle} to="/">Home</NavLink>
@@ -42,7 +54,7 @@ console.log('wokjred')
       <MediaLink />
   </div>
 </div>
-
+</div>
     )
 
 }

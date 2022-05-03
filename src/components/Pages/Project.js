@@ -3,7 +3,6 @@ import Data from '../../assets/Data.json'
 import ProjectModal from '../Modals/ProjectModal'
 import classes from '../Pages/Project.module.css'
 import Card from "../UI/Card";
-import {dynamicClassName} from '../../Utils/utilFunctions'
 import wipro from '../../assets/wipro.png'
 
 const Project =()=> {
@@ -16,7 +15,7 @@ return (
     <h3 style={{marginLeft: "10%", marginTop: "3%", color: "var(--secondary-color)" , fontSize: "25px"}}>My Projects</h3>
     <div className={classes.container}>
         {projectList.map((project)=> 
-        <div className={dynamicClassName(project.id, classes, 3)} key={project.id}> 
+        <div className={classes.item} key={project.id}> 
         <div className={classes.flipcard}>
         <div className={classes.flipcardinner}>
           <div className={classes.flipcardfront}><Card>
