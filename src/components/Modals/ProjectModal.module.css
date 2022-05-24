@@ -8,11 +8,19 @@
 
 .projectbutton {
  text-align: Left;
- padding-bottom: 4%;
  transition: transform .1s;
  width: fit-content;
 }
+.header {
+  max-height: 3.5rem;
+}
 
+.itemdetails {
+    display: flex;
+    flex-direction: column;
+    padding: 3% 8% 6% 10%; 
+  }
+  
 .projectbutton:hover {
     transform: scale(1.1); 
   }
@@ -24,8 +32,6 @@
     text-align: left;
 }
 
-.parentdiv {
-    padding: 1%;
-    margin-left: 10%;
-    margin-right: 10%;
-}
+/* .parentdiv {
+    padding: 1% 10% 1% 10%;
+} */

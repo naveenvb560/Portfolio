@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import classes from './ProjectModal.module.css'
 import Button from '../UI/Button'
 import Card from '../UI/Card'
@@ -6,11 +6,11 @@ import DetailsModal from "./DetailsModal";
 
 const ProjectModal = (props) => {
 
-    const item = props.project? props.project: props.experience
-    const itemName = props.project? "project": "experience"
+    const item = props.project ? props.project : props.experience
+    const itemName = props.project ? "project" : "experience"
     const [viewModal, setViewModal] = useState(false)
 
-    const viewProjectHandler=()=> {
+    const viewProjectHandler = () => {
 
         setViewModal({
             item: itemName,
@@ -18,20 +18,14 @@ const ProjectModal = (props) => {
         })
     }
 
-    const clearProjectModalHandler =()=> {
+    const clearProjectModalHandler = () => {
         setViewModal(false)
     }
-    const projectModal = {
-        marginLeft: "5%",
-        marginRight: "5%",
-        padding: "3% 1% 3% 1%"
 
-    }
-    
     return (
         <div className={classes.parentdiv}>
-            {viewModal ?<DetailsModal itemData={item} details={viewModal} clear={clearProjectModalHandler}>Hello</DetailsModal>: null}
-            <div style={projectModal}>
+            {viewModal ? <DetailsModal itemData={item} details={viewModal} clear={clearProjectModalHandler}>Hello</DetailsModal> : null}
+            <div className={classes.itemdetails}>
                 <div className={classes.header}>
                     <h4 className={classes.projectname}>{item.name}</h4>
                 </div>
@@ -39,8 +33,8 @@ const ProjectModal = (props) => {
                     <p className={classes.projectdetails}>{item.details}</p>
                 </div>
                 <div className={classes.projectbutton}>
-                <Button onClick={viewProjectHandler}>View More</Button>
-                </div> 
+                    <Button onClick={viewProjectHandler}>View More</Button>
+                </div>
             </div>
         </div>
     )
