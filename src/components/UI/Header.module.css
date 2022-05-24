@@ -17,7 +17,7 @@
   margin-top: 20px;
   justify-content: space-evenly;
   align-items: center;
-  animation: header_page_load ease-in-out 500ms;  
+  animation: header_page_load ease-in-out 1200ms;  
 }
 
 .line {
@@ -33,7 +33,7 @@
  
 @keyframes header_page_load{
   0% {
-    transform: translateX(-100%);
+    transform: translateX(-50%);
   }
 
   100% {

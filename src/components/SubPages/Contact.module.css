@@ -1,70 +1,15 @@
 .container {
-    display: grid;
-    grid-template-columns: 13% 50% 25% 9%;
-    margin-top: 11%;
-    row-gap: 5%;
-    justify-content: space-around;
-    align-items: baseline;
-    animation: education_page_load ease-in-out 1s;
-    column-gap: 7%;
-  }
-
-  @media only screen and (min-width: 1920px) {
-    .container {
-      max-width: 1920px;
-      margin: auto
-    }
-  }
-
-.item1 {
-    grid-column: 2;
-    width: 100%;
-    outline: none;
-    height: 100%;
-    grid-row: 1;
-}
-
-.item2 {
     display: flex;
-    justify-content: space-between;
-    grid-column: 2;
-    outline: none;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-    grid-row: 2;
-}
+    flex-direction: column;
+    animation: education_page_load ease-in-out 1s;
+    padding: 12% 10% 5% 11%;
+    min-width: 100vw;
+    min-height: 100vh;
+  }
 
-.item3 {
-    grid-column: 2;
-    width: 100%;
-    height: 100%;
-    grid-row: 3;
-}
-
-.item4 {
-    grid-column: 3;
-    width: 100%;
-    height: 100%;
-    grid-row: 2;
-}
-
-.item5 {
-    grid-column: 3;
-    width: 100%;
-    height: 100%;
-    grid-row: 3;
-}
-
-.item6 {
-  grid-column: 2;
-  width: 100%;
-  height: 100%;
-  align-items: center;
-  grid-row: 4;
-  margin-top: 6%;
-}
-
+  .contactelements {
+    padding: 2rem 0rem 2rem 0rem;
+  }
 
 @keyframes education_page_load{
     0% {
@@ -82,12 +27,20 @@
     outline: none;
     width: 46%;
     height: 30%;
-    padding: 1%;
+    padding: 3%;
+    margin-right: 1rem;
     border-bottom: 3px solid var(--addon-color);
     border-top: none;
     border-left: none;
     border-right: none;
     transition: transform 1s
+}
+
+.contactsubcontainer {
+ display: flex;
+ padding-top: 2rem;
+ gap: 10%;
+ flex-direction: row;
 }
 
 .textareastyle {
@@ -105,6 +58,7 @@
 
 .inputstyle:focus {
   transform: scale(1.1);
+  background-color: black;
   border-bottom: 3px solid var(--addon-color);
 }
 .textareastyle:focus {
@@ -116,3 +70,38 @@
   color: var(--tertiary-color);
   font-size: 15px; 
 }
+
+.contactinput {
+  width: 70%;
+}
+
+@media only screen and (min-width: 1920px) {
+  .container {
+    max-width: 1920px;
+    margin: auto
+  }
+}
+
+
+@media only screen and (max-width: 1050px) {
+
+  .container {
+    padding: 30% 10% 5% 11%;
+  }
+  .contactinput {
+    width: 90%;
+  }
+  .contactelements {
+    padding: 1rem 0rem 1rem 0rem;
+  }
+  .contactsubcontainer {
+    display: inline-flex;
+    flex-direction: column;
+  }
+
+  .educationchild {
+    padding: 1rem 1rem 1rem 0rem;
+    width: 100%;
+  }
+
+  }
