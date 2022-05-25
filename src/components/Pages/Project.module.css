@@ -13,7 +13,6 @@ h3 {
     column-gap: 2%;
     row-gap: 4rem; 
     justify-content: space-around;
-    animation: project_page_load ease-in-out 1s
   }
 
 
@@ -24,16 +23,6 @@ h3 {
   }
 
   
-  @keyframes project_page_load{
-    0% {
-      transform: translateX(-100%);
-    }
-
-    100% {
-      transform: translateX(0%);
-    }
-  }
-
   .maincontainer {
     height: 100vh;
   }

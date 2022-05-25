@@ -4,18 +4,8 @@
     margin: 5% 8% 6% 8%;
     column-gap: 1.5%;
     row-gap: 10%;
-    animation: skill_page_load ease-in-out 1s
   }
 
-  @keyframes skill_page_load{
-    0% {
-      transform: translateX(-100%);
-    }
-
-    100% {
-      transform: translateX(0%);
-    }
-  }
 
   .item {
     display: flex;

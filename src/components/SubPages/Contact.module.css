@@ -1,7 +1,6 @@
 .container {
     display: flex;
     flex-direction: column;
-    animation: education_page_load ease-in-out 1s;
     padding: 12% 10% 5% 11%;
     min-width: 100vw;
     min-height: 100vh;
@@ -9,16 +8,6 @@
 
   .contactelements {
     padding: 2rem 0rem 2rem 0rem;
-  }
-
-@keyframes education_page_load{
-    0% {
-      transform: translateX(-100%);
-    }
-
-    100% {
-      transform: translateX(0%);
-    }
   }
 
 .inputstyle {

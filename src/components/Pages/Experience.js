@@ -1,19 +1,25 @@
-import React from "react";
+import React, {useEffect} from "react";
 import Data from '../../assets/Data.json'
 import ProjectModal from '../Modals/ProjectModal'
 import classes from '../Pages/Project.module.css'
 import Card from "../UI/Card";
+import AOS from "aos"
+import "aos/dist/aos.css"
 
 const Experience = () => {
 
     const experienceList = Data.Experience
-
+    useEffect(() => {
+        AOS.init({
+            duration: 2000
+        });
+    });
     return (
-        <div className={classes.maincontainer}>
+        <div data-aos='fade-right' className={classes.maincontainer}>
             <h3 style={{ marginLeft: "10%", marginTop: "3%", color: "var(--secondary-color)", fontSize: "25px" }}>My Experiences</h3>
             <div className={classes.container}>
-                {experienceList.map((experience) => <Card>
-            <ProjectModal experience={experience}/></Card>
+                {experienceList.map((experience) => <div data-aos='flip-left'><Card>
+            <ProjectModal experience={experience}/></Card></div>
                 )}
             </div>
         </div>
