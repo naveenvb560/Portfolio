@@ -1,16 +1,23 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import ReactDOM from 'react-dom';
 import classes from './DetailsModal.module.css'
 import { getSkillsForProject, getProjects } from '../../Utils/utilFunctions'
+import AOS from "aos"
+import "aos/dist/aos.css"
 
 const DetailsModal = (props) => {
     let renderData = null
     const details = props.details
+    useEffect(() => {
+        AOS.init({
+            duration: 1000
+        });
+    });
     if (details.item === 'project') {
         const project = props.itemData
         const skillsList = getSkillsForProject(project.techused)
         renderData =
-            <div>
+            <div  data-aos='slide-right' data-aos-duration="4000">
                 <div className={classes.projectnamecontainer}>
                     <h4 className={classes.projectname}>{project.name}</h4>
                     {project.status === 'completed' ? <img className={classes.projectIcon} src="https://img.icons8.com/fluency/96/000000/checked-truck.png" /> :
@@ -40,7 +47,7 @@ const DetailsModal = (props) => {
         const experience = props.itemData
         const projectList = getProjects(experience.projects)
         renderData =
-            <div>
+            <div data-aos='slide-right' data-aos-duration="4000">
                 <div className={classes.projectnamecontainer}>
                     <h4 className={classes.projectname}>{experience.name}</h4>
                     {experience.status === 'completed' ? <img className={classes.projectIcon} src="https://img.icons8.com/fluency/96/000000/checked-truck.png" /> :
@@ -91,7 +98,7 @@ const DetailsModal = (props) => {
     }
 
     return ReactDOM.createPortal(
-        <div className={classes.modalcontainer}>
+        <div data-aos='zoom-in' className={classes.modalcontainer}>
             <div className={classes.modal}>
                 <button onClick={props.clear} className={classes.link2}></button>
                 {renderData}

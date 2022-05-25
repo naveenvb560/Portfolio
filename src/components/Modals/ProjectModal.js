@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import classes from './ProjectModal.module.css'
 import Button from '../UI/Button'
-import Card from '../UI/Card'
 import DetailsModal from "./DetailsModal";
 
 const ProjectModal = (props) => {

@@ -1,10 +1,17 @@
-import React, {useState} from "react";
+import React, {useState, useEffect} from "react";
 import MediaLink from '../SubPages/MediaLinks'
 import classes from './Header.module.css'
 import { NavLink } from "react-router-dom";
+import AOS from "aos"
+import "aos/dist/aos.css"
 
 const Header = () => {
     const [expanded, setExpanded] = useState(false)
+    useEffect(() => {
+        AOS.init({
+            duration: 2000
+        });
+    });
     const activeStyle ={
         textAlign: "center",
         color: "var(--secondary-color)",
@@ -26,7 +33,7 @@ const Header = () => {
             })
         }
     return (
-        <div>
+        <div data-aos='zoom-in-up'>
             <div >
                 <a onClick={hamburgerMenuHandler} className={classes.hamburger}>
                     <span className={classes.line}></span>

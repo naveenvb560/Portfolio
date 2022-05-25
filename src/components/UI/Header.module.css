@@ -33,7 +33,7 @@
  
 @keyframes header_page_load{
   0% {
-    transform: translateX(-50%);
+    transform: translateX(-20%);
   }
 
   100% {
