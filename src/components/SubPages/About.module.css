@@ -37,13 +37,6 @@ p {
     font-family: 'Futura';
 }
 
-@media only screen and (min-width: 1920px) {
-    .container {
-      max-width: 1920px;
-      margin: auto
-    }
-  }
-
 .detailcontainer {
 display: flex;
 flex-direction: column;
@@ -88,4 +81,33 @@ h2 {
   font-family: 'Futura';
   max-height: 100%;
 }
+
+.container {
+  padding: 12% 12% 10% 4%;
+}
+
+.img {
+  max-width: 60%;
+}
+}
+
+
+@media only screen and (min-width: 1920px) {
+  .container {
+    max-width: 1920px;
+    margin: auto
+  }
+}
+
+@media only screen and (max-width: 705px) {
+  .container {
+    padding-left: 20%;
+    flex-direction: column;
+  }
+  .img {
+    max-width: 80%;
+    margin-left: 50%;
+}
+
+
 }

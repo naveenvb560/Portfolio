@@ -15,7 +15,7 @@ a:focus {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(8, 8, 1, 0.5);
+  background: rgba(2, 2, 0, 0.8);
   overflow-y: initial !important
 }
 
@@ -31,7 +31,7 @@ a:focus {
   margin: 3% 25%;
   color: hsl(220, 50%, 90%);
   background: var(--primary-color);
-  box-shadow: 0px 1px 1px 1px rgba(95, 97, 4, .5);
+  box-shadow: 0px 1px 10px 1px rgba(59, 61, 3, 0.8);
   overflow-y: auto;
 }
 
@@ -66,8 +66,8 @@ a:focus {
 
 .link2:hover,
 .link2:focus {
-  background: var(--tertiary-color);
-  border-color: var(--tertiary-color);
+  background: red;
+  color: var(--secondary-color);
   transform: translateY(-.2rem);
 }
 
