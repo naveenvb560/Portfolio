@@ -18,7 +18,7 @@ const Experience = () => {
         <div data-aos='fade-right' className={classes.maincontainer}>
             <h3 style={{ marginLeft: "10%", marginTop: "3%", color: "var(--secondary-color)", fontSize: "25px" }}>My Experiences</h3>
             <div className={classes.container}>
-                {experienceList.map((experience) => <div data-aos='flip-left'><Card>
+                {experienceList.map((experience) => <div key={experience.id} data-aos='flip-left'><Card>
             <ProjectModal experience={experience}/></Card></div>
                 )}
             </div>

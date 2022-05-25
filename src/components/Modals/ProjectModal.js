@@ -23,7 +23,7 @@ const ProjectModal = (props) => {
 
     return (
         <div className={classes.parentdiv}>
-            {viewModal ? <DetailsModal itemData={item} details={viewModal} clear={clearProjectModalHandler}>Hello</DetailsModal> : null}
+            {viewModal ? <DetailsModal key={viewModal.id} itemData={item} details={viewModal} clear={clearProjectModalHandler}>Hello</DetailsModal> : null}
             <div className={classes.itemdetails}>
                 <div className={classes.header}>
                     <h4 className={classes.projectname}>{item.name}</h4>

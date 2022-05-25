@@ -11,6 +11,10 @@
     width: 45%;
   }
 
+  .institutionname {
+    font-weight: 500;
+  }
+
   .educationsubcontainer {
     display: inline-flex;
     flex-direction: row;

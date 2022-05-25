@@ -82,7 +82,7 @@ const DetailsModal = (props) => {
                 <div>
                     <h5 className={classes.smallheading}>Awards:</h5>
                     <ul>
-                        { experience.awards? experience.awards.map((award) => <div><li key={award.id} className={classes.listitems} >
+                        { experience.awards? experience.awards.map((award) => <div key={award.id} ><li className={classes.listitems} >
                         <div className={classes.projectnamecontainer}>
                         <h5 className={classes.smallheading}>{award.name}</h5>
                         <a href={award.link} download><img style={{width: "37%"}} src="https://img.icons8.com/plasticine/100/000000/certificate.png"/></a>
