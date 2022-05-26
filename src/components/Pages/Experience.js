@@ -11,7 +11,7 @@ const Experience = () => {
     const experienceList = Data.Experience
     useEffect(() => {
         AOS.init({
-            duration: 2000
+            duration: 1500
         });
     });
     return (

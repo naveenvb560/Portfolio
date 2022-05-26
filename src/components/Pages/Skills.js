@@ -10,7 +10,7 @@ const Skills =()=> {
     const skillsArray = Data.Skills
     useEffect(() => {
         AOS.init({
-            duration: 2000
+            duration: 1500
         });
     });
     return (

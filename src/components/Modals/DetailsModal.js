@@ -25,7 +25,7 @@ const DetailsModal = (props) => {
                     }
                 </div>
                 <div>
-                <p>{project.details}</p>
+                <p className={classes.details}>{project.details}</p>
                 </div>
                 <div>
                     <h5 className={classes.smallheading}>Technologies used:</h5>
@@ -55,7 +55,7 @@ const DetailsModal = (props) => {
                     }
                 </div>
                 <div>
-                <p>{experience.details}</p>
+                <p className={classes.details}>{experience.details}</p>
                 </div>
                 <div>
                     <h5 className={classes.smallheading}>Designation:</h5>

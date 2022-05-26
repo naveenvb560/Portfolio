@@ -3,6 +3,7 @@
 .projectdetails {
     color: var(--tertiary-color);
     font-size: 18px;
+    line-height: 1.5;
     font-family: 'Futura';
 }
 
@@ -22,8 +23,8 @@
 }
 
 .companyicon {
-  max-width: 20%;
-  max-height: 20%;
+  max-width: 10%;
+  max-height: 10%;
   margin-left: 5%;
 }
 

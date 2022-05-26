@@ -11,7 +11,7 @@ const Project = () => {
     const projectList = Data.projects
     useEffect(() => {
         AOS.init({
-            duration: 2000
+            duration: 1500
         });
     });
 
