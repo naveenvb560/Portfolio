@@ -14,11 +14,11 @@ const Skills =()=> {
         });
     });
     return (
-        <div data-aos='fade-right' className={classes.maincontainer}>
+        <div data-aos='fade-right' data-aos-once="true" className={classes.maincontainer}>
         <h3 style={{ color: "var(--secondary-color)", margin: "3% 0% 1% 10%", fontSize: "25px"}}>My Skills</h3>
         <div className={classes.container}>
             {skillsArray.map((skill)=>
-               <div key={skill.id} data-aos='zoom-out' className={classes.item}> 
+               <div key={skill.id} data-aos='zoom-out' data-aos-once="true" className={classes.item}> 
                            <Card> 
                    <SkillsModal name={skill.name} percentage={skill.percentage}/>   </ Card> 
                 </div> 

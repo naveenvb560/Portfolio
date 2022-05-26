@@ -30,7 +30,8 @@ const About = () => {
                 </div>
                 <div className={classes.buttoncontainer}>
                     <Button onClick={viewProjectHandler} >View Projects</Button>
-                    <a className={classes.downloadbutton} href="https://drive.google.com/file/d/1ojwbMiNb54Ny1fOcnbBpBGTsOZ3RPnkZ/view?usp=sharing" target="_blank">Download Resume</a>
+                    <a className={classes.downloadbutton} href="https://drive.google.com/file/d/1ojwbMiNb54Ny1fOcnbBpBGTsOZ3RPnkZ/view?usp=sharing" target="_blank">
+                        <label style={{fontFamily:'Futura'}}>Download Resume</label></a>
                 </div>
             </div>
         </div>

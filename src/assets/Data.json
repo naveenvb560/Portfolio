@@ -176,7 +176,7 @@
         },
         {
             "id": 3,
-            "name": "Online Portal For Sell Books",
+            "name": "Online Book Stall",
             "description": "This website helps fellow writers to sells their books online. Developed using ReactJS, NodeJS, AWS. User can access the website to buy the books. Also integrated an online payment gateway to the website.",
             "details": "Online e-commerce web platform to help fellow writers to sell books Developed in ReactJs and PostgressSQL",
             "techused": [

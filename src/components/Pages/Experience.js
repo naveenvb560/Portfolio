@@ -15,10 +15,10 @@ const Experience = () => {
         });
     });
     return (
-        <div data-aos='fade-right' className={classes.maincontainer}>
+        <div data-aos='fade-right' data-aos-once="true" className={classes.maincontainer}>
             <h3 style={{ marginLeft: "10%", marginTop: "3%", color: "var(--secondary-color)", fontSize: "25px" }}>My Experiences</h3>
             <div className={classes.container}>
-                {experienceList.map((experience) => <div key={experience.id} data-aos='flip-left'><Card>
+                {experienceList.map((experience) => <div key={experience.id} data-aos-once="true" data-aos='flip-left'><Card>
             <ProjectModal experience={experience}/></Card></div>
                 )}
             </div>

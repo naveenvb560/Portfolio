@@ -14,13 +14,13 @@ const Home = () => {
     });
     return (
         <div>
-            <div data-aos-easing='ease-out-quad' data-aos='zoom-in-up'>
+            <div data-aos-easing='ease-out-quad' data-aos-once="true" data-aos='zoom-in-up'>
                 <About></About>
             </div>
-            <div  data-aos='fade-down-left'>
+            <div  data-aos='fade-down-left' data-aos-once="true">
                 <Education></Education>
             </div>
-            <div  data-aos='fade-up-right'>
+            <div  data-aos='fade-up-right' data-aos-once="true">
                 <Contact></Contact>
             </div>
             <div style={{marginTop: "5rem"}}>

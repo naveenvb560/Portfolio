@@ -24,7 +24,7 @@ const SkillsModal = (props) => {
           <div className={classes.insidecircle}>{`${percentage}%`}</div>
         </div>
       </div>
-      <div className={classes.text}> {props.name} </div>
+      <div className={classes.text}><label style={{fontFamily: 'Futura'}}>{props.name}</label>  </div>
       </div>
     )
 }

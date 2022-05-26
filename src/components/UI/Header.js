@@ -42,16 +42,16 @@ const Header = () => {
                     <span className={classes.line}></span>
                 </a>
             </div> 
-            <div data-aos-easing='ease-out-quad' data-aos='flip-right' className={notexpanded ? classes.container : `${classes.container} ${classes.displayhamburger}`}>
+            <div data-aos-easing='ease-out-quad' data-aos='flip-right' data-aos-once="true" className={notexpanded ? classes.container : `${classes.container} ${classes.displayhamburger}`}>
                     <div className={classes.navlinks}>
                         <NavLink className={classes.item} style={({ isActive }) =>
                             isActive ? activeStyle : inactiveStyle} to="/">Home</NavLink>
                         <NavLink className={classes.item} style={({ isActive }) =>
-                            isActive ? activeStyle : inactiveStyle} to="Projects">Projects</NavLink>
+                            isActive ? activeStyle : inactiveStyle} to="./Projects">Projects</NavLink>
                         <NavLink className={classes.item} style={({ isActive }) =>
-                            isActive ? activeStyle : inactiveStyle} to="/Experiences">Experiences</NavLink>
+                            isActive ? activeStyle : inactiveStyle} to="./Experiences">Experiences</NavLink>
                         <NavLink className={classes.item} style={({ isActive }) =>
-                            isActive ? activeStyle : inactiveStyle} to="Skills">Skills</NavLink></div>
+                            isActive ? activeStyle : inactiveStyle} to="./Skills">Skills</NavLink></div>
                     <div className={classes.medialink}>
                         <MediaLink />
                     </div>

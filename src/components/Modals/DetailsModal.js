@@ -17,7 +17,7 @@ const DetailsModal = (props) => {
         const project = props.itemData
         const skillsList = getSkillsForProject(project.techused)
         renderData =
-            <div  data-aos='slide-right' data-aos-duration="4000">
+            <div data-aos-once="true" data-aos='slide-right' data-aos-duration="4000">
                 <div className={classes.projectnamecontainer}>
                     <h4 className={classes.projectname}>{project.name}</h4>
                     {project.status === 'completed' ? <img alt="icons" className={classes.projectIcon} src="https://img.icons8.com/fluency/96/000000/checked-truck.png" /> :
@@ -47,7 +47,7 @@ const DetailsModal = (props) => {
         const experience = props.itemData
         const projectList = getSkillsForProject(experience.skills)
         renderData =
-            <div data-aos='slide-right' data-aos-duration="4000">
+            <div data-aos-once="true" data-aos='slide-right' data-aos-duration="4000">
                 <div className={classes.projectnamecontainer}>
                     <h4 className={classes.projectname}>{experience.name}</h4>
                     {experience.status === 'completed' ? <img alt="icons" className={classes.projectIcon} src="https://img.icons8.com/fluency/96/000000/checked-truck.png" /> :
@@ -98,7 +98,7 @@ const DetailsModal = (props) => {
     }
 
     return ReactDOM.createPortal(
-        <div data-aos='zoom-in' className={classes.modalcontainer}>
+        <div data-aos='zoom-in' data-aos-once="true" className={classes.modalcontainer}>
             <div className={classes.modal}>
                 <button onClick={props.clear} className={classes.link2}></button>
                 {renderData}
