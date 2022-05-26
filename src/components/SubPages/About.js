@@ -1,7 +1,6 @@
 import React from "react";
 import classes from './About.module.css'
 import photo from '../../assets/profile.jpg'
-import Resume from '../../assets/Resume.pdf'
 import Button from "../UI/Button";
 import myData from '../../assets/Data.json';
 import { useNavigate } from "react-router-dom";
@@ -31,7 +30,7 @@ const About = () => {
                 </div>
                 <div className={classes.buttoncontainer}>
                     <Button onClick={viewProjectHandler} >View Projects</Button>
-                    <a className={classes.downloadbutton} href={Resume} download>Download Resume</a>
+                    <a className={classes.downloadbutton} href="https://drive.google.com/file/d/1ojwbMiNb54Ny1fOcnbBpBGTsOZ3RPnkZ/view?usp=sharing" target="_blank">Download Resume</a>
                 </div>
             </div>
         </div>

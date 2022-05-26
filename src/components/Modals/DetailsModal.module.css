@@ -87,6 +87,10 @@ a:focus {
   text-align: left;
 }
 
+.awardetails {
+  font-size: 15px;
+}
+
 .listitems {
   color: var(--tertiary-color);
   font-size: 15px;

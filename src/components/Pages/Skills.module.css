@@ -55,17 +55,29 @@
   .container {
     margin: 6% 8% 6% 8%;
     grid-template-columns: 33.33% 33.33% 33.33%;
+    row-gap: 20%;
   }
 
 }
+
+
+@media only screen and (max-width: 840px) {
+  .maincontainer {
+    margin: 12% 0% 0% 0%;
+  }
+}
+
 
 @media only screen and (max-width: 741px) {
   .container {
     margin: 6% 8% 6% 8%;
     grid-template-columns: 50% 50%;
+    row-gap: 10%;
   }
 
 }
+
+
 
 @media only screen and (max-width: 430px) { 
   .maincontainer {

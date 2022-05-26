@@ -39,13 +39,13 @@ const DetailsModal = (props) => {
                 </div>
                 <div >
                     <h5 className={classes.smallheading}>Source Code/Link:</h5>
-                    <label className={classes.labelstyle}>{project.team_members}</label>
+                    <label className={classes.labelstyle}><a href={project.link} target="_blank"/>{project.link}</label>
                 </div>
-            </div>
+            </div> 
     }
     else {
         const experience = props.itemData
-        const projectList = getProjects(experience.projects)
+        const projectList = getSkillsForProject(experience.skills)
         renderData =
             <div data-aos='slide-right' data-aos-duration="4000">
                 <div className={classes.projectnamecontainer}>
@@ -74,7 +74,7 @@ const DetailsModal = (props) => {
                     <label className={classes.labelstyle}>{experience.months}</label>
                 </div>
                 <div>
-                    <h5 className={classes.smallheading}>Projects Worked:</h5>
+                    <h5 className={classes.smallheading}>Skills Worked:</h5>
                     <ul>
                         { projectList? projectList.map((project) => <li key={project.id} className={classes.listitems} >{project.name}</li>): null}
                     </ul>
@@ -87,7 +87,7 @@ const DetailsModal = (props) => {
                         <h5 className={classes.smallheading}>{award.name}</h5>
                         <a href={award.link} download><img style={{width: "37%"}} src="https://img.icons8.com/plasticine/100/000000/certificate.png"/></a>
                         </div>
-                        <p>{award.details}</p>
+                        <p className={classes.awardetails}>{award.details}</p>
                         </li> 
                         </div>
                         )                        

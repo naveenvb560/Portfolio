@@ -10,17 +10,17 @@ const MediaLink = () => {
 
     return (
         <React.Fragment>
-                        <li className={classes.list}>
-                <img onClick={()=> window.open("https://www.linkedin.com/in/naveenvb560")} className={classes.instagram} src={linkedin} alt="linkedin" ></img>
+            <li className={classes.list}>
+                <img onClick={() => window.open("https://www.linkedin.com/in/naveenvb560")} className={classes.instagram} src={linkedin} alt="linkedin" ></img>
             </li>
             <li className={classes.list}>
-                <img onClick={()=> window.open("https://www.facebook.com/naveen.vb.73/")}  className={classes.facebook} src={facebook} alt="facebook" ></img>
+                <img onClick={() => window.open("https://www.facebook.com/naveen.vb.73/")} className={classes.facebook} src={facebook} alt="facebook" ></img>
             </li>
             <li className={classes.list}>
-                <img onClick={()=> window.open("https://github.com/naveenvb560")} className={classes.github} src={github} alt="github" ></img>
-            </li>      
+                <img onClick={() => window.open("https://github.com/naveenvb560")} className={classes.github} src={github} alt="github" ></img>
+            </li>
             <li className={classes.list}>
-                <img onClick={()=> window.open("https://naveenvb560@gmail.com")} className={classes.gmail} src={gmail} alt="gmail" ></img>
+                <img onClick={() => window.open("https://naveenvb560@gmail.com")} className={classes.gmail} src={gmail} alt="gmail" ></img>
             </li>
         </React.Fragment>
     )

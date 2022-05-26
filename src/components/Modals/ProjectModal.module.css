@@ -15,6 +15,18 @@
   max-height: 3.5rem;
 }
 
+.companyiconcontainer {
+  display: flex;
+  align-items: center;
+  justify-content:flex-start;
+}
+
+.companyicon {
+  max-width: 20%;
+  max-height: 20%;
+  margin-left: 5%;
+}
+
 .itemdetails {
     display: flex;
     flex-direction: column;
@@ -46,5 +58,7 @@
   font-size: 15px;
   font-weight: 400;
 }
-
+.companyicon {
+  display: none;
+}
 }

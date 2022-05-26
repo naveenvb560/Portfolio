@@ -1,115 +1,190 @@
 {
     "About": {
-        "description": "Contrary to popular belief, Lorem Ipsum is  not simply random text.It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock,"
+        "description": "I am rarely happier than when spending an entire day programming my computer to perform automatically a task that would otherwise take me a good ten seconds to do by hand."
     },
     "Skills": [
         {
             "id": 1,
             "name": "Javascript",
             "percentage": 75,
-            "projectlist": [1, 2],
-            "experiencelist": [1]
+            "projectlist": [
+                1,
+                2
+            ],
+            "experiencelist": [
+                1
+            ]
         },
         {
             "id": 2,
             "name": "Python",
             "percentage": 82,
-            "projectlist": [1, 2],
-            "experiencelist": [1]
+            "projectlist": [
+                1,
+                2
+            ],
+            "experiencelist": [
+                1
+            ]
         },
         {
             "id": 3,
             "name": "Tool Design",
             "percentage": 75,
-            "projectlist": [1, 2],
-            "experiencelist": [1]
+            "projectlist": [
+                1,
+                2
+            ],
+            "experiencelist": [
+                1
+            ]
         },
         {
             "id": 4,
             "name": "Algorithm",
             "percentage": 70,
-            "projectlist": [1, 2],
-            "experiencelist": [1]
+            "projectlist": [
+                1,
+                2
+            ],
+            "experiencelist": [
+                1
+            ]
         },
         {
             "id": 5,
             "name": "SQL",
             "percentage": 55,
-            "projectlist": [1, 2],
-            "experiencelist": [1]
+            "projectlist": [
+                1,
+                2
+            ],
+            "experiencelist": [
+                1
+            ]
         },
         {
             "id": 6,
             "name": "ReactJS",
             "percentage": 85,
-            "projectlist": [1, 2],
-            "experiencelist": [1]
+            "projectlist": [
+                1,
+                2
+            ],
+            "experiencelist": [
+                1
+            ]
         }
     ],
     "Experience": [
         {
             "id": 1,
             "name": "Wipro Technologies",
-            "details": "Lorem ipsum dolor sit amet. Est dignissimos dicta et eius repellat et adipisci numquam et labore molestias sed minusperspiciatis est unde labore qui debitis libero",
+            "description": "Started my journey by joining as a WASE student. Worked mainly on two projects, learned a lot. Got a chance to work with different team.It helped me in contiuous learning and career development.",
+            "details": "Worked as a software engineer under WASE program and completed JAVA/J2EE training. 1.3 Year experience as developer in Python 1.3 Year experience as developer in ReactJS Worked as a full stack developer Experienced in using JIRA and agile methodology Excellent time-management, team work and communication skills",
             "months": 31,
             "joined_date": "27/08/2019",
             "resigned_date": "20/04/2022",
             "status": "completed",
-            "designation": "software engineer",
-            "projects": [2, 3],
-            "awards": [{
-                "id": 1,
-                "name": "Pragathi",
-                "details": "for cost saving automation",
-                "link": ""
-            }],
-            "svg": "[url=https://seekvectorlogo.net/wipro-limited-vector-logo-svg/][img]https://seekvectorlogo.net/wp-content/uploads/2019/04/wipro-limited-vector-logo.png[/img][/url]"
+            "designation": "Software Engineer -L1",
+            "skills": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ],
+            "awards": [
+                {
+                    "id": 1,
+                    "name": "Pragathi for Cost Saving Automation",
+                    "details": "For cost saving activity, created a tool to automate log analysis activity",
+                    "link": "https://drive.google.com/file/d/1eM6dwqb7TWRz2ik404T-gsbzBDibUfRs/view?usp=sharing"
+                },
+                {
+                    "id": 2,
+                    "name": "Pragathi for Value Adds",
+                    "details": "Created a tool to identify the productivity of team per release",
+                    "link": "https://drive.google.com/file/d/18cwh7Z10fSTf1kyUFw1kRfrkfewyrrdJ/view?usp=sharing"
+                },
+                {
+                    "id": 3,
+                    "name": "Pragathi for Value Adds",
+                    "details": "Created a tool to identify the productivity of team per sprint",
+                    "link": "https://drive.google.com/file/d/13k6adLD2rMOFbeokYz_HPmQChZxkJU7z/view?usp=sharing"
+                },
+                {
+                    "id": 4,
+                    "name": "Pragathi for Delivery Excellence",
+                    "details": "Created a tool to identify the sprint requirement volatility happened in a sprint (based on the data from JIRA)",
+                    "link": "https://drive.google.com/file/d/19WZsLhe51dPgYUjzlJ6zwDP8TiGvD2YQ/view?usp=sharing"
+                },
+                {
+                    "id": 5,
+                    "name": "Pragathi for Cost Saving Activities",
+                    "details": "Created a tool to automate a manual activity, which is a file analysis",
+                    "link": "https://drive.google.com/file/d/1CroEiUf2P-Cw-90rKOJv_TsdfKFKIH7a/view?usp=sharing"
+                }
+            ]
         },
         {
             "id": 2,
-            "name": "Wipro Technologies",
-            "details": "Lorem ipsum dolor sit amet. Est dignissimos dicta et eius repellat et adipisci numquam et labore molestias sed minusperspiciatis est unde labore qui debitis libero",
-            "months": 31,
-            "joined_date": "27/08/2019",
-            "resigned_date": "20/04/2022",
-            "status": "completed",
-            "designation": "software engineer",
-            "projects": [2, 3],
-            "awards": [{
-                "id": 1,
-                "name": "Pragathi",
-                "details": "for cost saving automation",
-                "link": ""
-            }]
+            "name": "Tata consultancy service",
+            "description": "Joined on May 2022 as a System Engineer, dedicated to enabling a future-ready workforce and offers many learning experiences that focus on reskilling and upskilling. Continuing my Journey.",
+            "details": "Recently joined, started to work as a react developer, working as a team with size of 5, using reactjs, redux and typescript",
+            "months": 1,
+            "joined_date": "09/05/2022",
+            "resigned_date": "NA",
+            "status": "in porgress",
+            "designation": "System Engineer",
+            "skills":[
+                1,
+                6
+            ],
+
+            
+            "awards": []
         }
     ],
     "projects": [
         {
             "id": 1,
             "name": "Benji Chatbot",
-            "details": "Lorem ipsum dolor sit amet. Est dignissimos dicta et eius repellat et adipisci numquam et labore molestias sed minusperspiciatis est unde labore qui debitis libero",
-            "techused": [1,2],
-            "status": "in porgress",
-            "link": "",
+            "description": "Benji is a chatbot which can be integrate to any website. It was developed as a college project. Worked as a team with my friends and the made the idea a reality and the  outcome was pretty amazing.",
+            "details": "Benji is a chatbot developed for my college (CMS). This chatbot is developed using RASA framework , which is a platform that helps us to build ML models. The chatbot was capable of answering most of the queries of user, normal chitchat was also managed to perform, even online payment was possible throught the bot, It can be integrated to the website.",
+            "techused": [
+                1,
+                2
+            ],
+            "status": "completed",
+            "link": "https://github.com/naveenvb560/Benji-",
             "team_members": 3
         },
         {
             "id": 2,
-            "name": "Benji Chatbot",
-            "details": "Lorem ipsum dolor sit amet. Est dignissimos dicta et eius repellat et adipisci numquam et labore molestias sed minusperspiciatis est unde labore qui debitis libero",
-            "techused": [1,2],
+            "name": "JIRA Task Logger",
+            "description":"Jira task logger is a tool which helps fellow team members to create issues based on an excel sheet. The tool is created with user authentication. Also the parameters for issue creation is configurable.",
+            "details": "Jira task logger is a tool which helps us to log issues in jira based on a excel sheet. The user can login to the tool to provide the necessary details to create issues in Jira. The parameters for issue creation is configurable. The tool is developed using Python Flask, ReactJS, TailWind CSS, MSSQL.",
+            "techused": [
+                1,
+                2
+            ],
             "status": "completed",
-            "link": "",
-            "team_members": 3
+            "link": "https://github.com/naveenvb560/JIRA-Task-logger-with-excel",
+            "team_members": 1
         },
         {
             "id": 3,
-            "name": "Benji Chatbot",
-            "details": "Lorem ipsum dolor sit amet. Est dignissimos dicta et eius repellat et adipisci numquam et labore molestias sed minusperspiciatis est unde labore qui debitis libero",
-            "techused": [1,2],
+            "name": "Online Portal For Sell Books",
+            "description": "This website helps fellow writers to sells their books online. Developed using ReactJS, NodeJS, AWS. User can access the website to buy the books. Also integrated an online payment gateway to the website.",
+            "details": "Online e-commerce web platform to help fellow writers to sell books Developed in ReactJs and PostgressSQL",
+            "techused": [
+                1,
+                2
+            ],
             "status": "completed",
-            "link": "",
-            "team_members": 3
+            "link": "https://github.com/naveenvb560/BookStallWithReact"
         }
     ]
 }

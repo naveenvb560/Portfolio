@@ -21,21 +21,4 @@ export const getSkillsForProject=(skillsIDs)=> {
 
 }
 
-export const getProjects=(projectIDs)=> {
-    const projectsList = Data.projects
 
-    let projectData = []
-    if(Array.isArray(projectIDs)) {
-
-        if(projectIDs.length === 0) return false
-        projectsList.forEach(project => {
-            if (projectIDs.includes(parseInt(project.id))) {
-                projectData.push(project)
-            }
-        })
-        return projectData
-    } else {
-        return false
-    }
-
-}

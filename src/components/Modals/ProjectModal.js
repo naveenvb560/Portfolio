@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import classes from './ProjectModal.module.css'
 import Button from '../UI/Button'
 import DetailsModal from "./DetailsModal";
+import TCS from '../../assets/TCS.png'
+import Wipro from '../../assets/Wipro.png'
 
 const ProjectModal = (props) => {
 
@@ -20,16 +22,21 @@ const ProjectModal = (props) => {
     const clearProjectModalHandler = () => {
         setViewModal(false)
     }
-
+    console.log(item)
     return (
         <div className={classes.parentdiv}>
             {viewModal ? <DetailsModal key={viewModal.id} itemData={item} details={viewModal} clear={clearProjectModalHandler}>Hello</DetailsModal> : null}
             <div className={classes.itemdetails}>
                 <div className={classes.header}>
-                    <h4 className={classes.projectname}>{item.name}</h4>
-                </div>
+                {itemName === "experience" ?
+                <div className={classes.companyiconcontainer}>
+                    <h4 className={classes.projectname}>{item.name}</h4>                  
+                  {item.id === 1 ? <img className={classes.companyicon} src={Wipro} />: <img className={classes.companyicon} src={TCS} /> }
+                    
+                </div>:
+                <h4 className={classes.projectname}>{item.name}</h4> } </div>
                 <div>
-                    <p className={classes.projectdetails}>{item.details}</p>
+                    <p className={classes.projectdetails}>{item.description}</p>
                 </div>
                 <div className={classes.projectbutton}>
                     <Button onClick={viewProjectHandler}>View More</Button>

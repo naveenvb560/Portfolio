@@ -67,6 +67,18 @@
   padding: 0px 40px 0px 40px;
 }
 
+@media only screen and (max-width: 840px) {
+  .skillsmodalcontainer {
+    padding: 0px 35px 0px 35px;
+  }
+  .text {
+    padding: 14px;
+    font-size: 16px;
+}
+}
+
+
+
 @media only screen and (max-width: 430px) { 
   .circlewrap {
     margin-top: 2rem;
