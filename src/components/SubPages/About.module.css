@@ -136,11 +136,16 @@ h2 {
 .descriptionitem {
   padding: 0 .5rem .3rem .5rem;
   text-align: left;
-  font-size: 19px;
+  font-weight: 300;
+  font-size: 18px;
 }
 .buttoncontainer {
   padding-top: 5%;
   justify-content: center;
+}
+.downloadbutton {
+  font-size: 14px;
+  font-weight: 200;
 }
 }
 
