@@ -27,8 +27,9 @@ a:focus {
 .modal {
   padding: 3% 5%;
   border-radius: .8rem;
+  width: 60%;
   height: 90%;
-  margin: 3% 25%;
+  margin: 3% 20%;
   color: hsl(220, 50%, 90%);
   background: var(--primary-color);
   box-shadow: 0px 1px 10px 1px rgba(59, 61, 3, 0.8);
@@ -118,4 +119,20 @@ a:focus {
 
 .labelstyle {
   color: var(--tertiary-color)
+}
+
+@media only screen and (max-width: 850px) { 
+  .modal {
+    margin: 8% 5%;
+    height: 85%;
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 430px) { 
+  .modal {
+    margin: 14% 2.5%;
+    height: 90%;
+    width: 95%;
+  }
 }

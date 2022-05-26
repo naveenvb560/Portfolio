@@ -66,3 +66,19 @@
   }
 
 }
+
+@media only screen and (max-width: 430px) { 
+  .maincontainer {
+    margin: 14% 1% 0% 0%;
+    column-gap: 2%;
+    height: 100%;
+    }
+    .container {
+      margin: 7% 1% 0% 5%;
+      height: 100%;
+    }
+    .item {
+      max-width: 90%;
+    }
+  }
+  

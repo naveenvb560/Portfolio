@@ -6,7 +6,7 @@
     transform-style:preserve-3d;
     cursor:pointer;
     transition:all .3s ease;
-    font-family: 'arial'
+    font-family: 'Futura'
   }
   .rotatebutton .rotatebuttonface, .rotatebutton .rotatebuttonfaceback {
     position:absolute;
@@ -32,4 +32,16 @@
   }
   .rotatebutton:hover {
     transform:rotateX(90deg);
+  }
+
+  @media only screen and (max-width: 430px) { 
+    .rotatebutton {
+      width:150px;
+      height: 30px;
+    }
+    .rotatebutton .rotatebuttonface, .rotatebutton .rotatebuttonfaceback {
+      width:150px;
+      height: 30px;
+      line-height:30px;
+    }
   }

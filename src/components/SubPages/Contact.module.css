@@ -1,48 +1,52 @@
 .container {
-    display: flex;
-    flex-direction: column;
-    padding: 12% 10% 5% 11%;
-    min-width: 100vw;
-    min-height: 100vh;
-  }
+  display: flex;
+  flex-direction: column;
+  padding: 5% 10.5% 1% 12%;
+  min-width: 100vw;
+  min-height: 100%;
+}
 
-  .contactelements {
-    padding: 2rem 0rem 2rem 0rem;
-  }
+.contactelements {
+  padding: 2rem 0rem 2rem 0rem;
+}
+.contactsubelements {
+  padding: 2rem 0rem 2rem 0rem;
+}
+
 
 .inputstyle {
-    background-color: var(--primary-color);
-    color: var(--secondary-color);
-    outline: none;
-    width: 46%;
-    height: 30%;
-    padding: 3%;
-    margin-right: 1rem;
-    border-bottom: 3px solid var(--addon-color);
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    transition: transform 1s
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  outline: none;
+  width: 46%;
+  height: 30%;
+  padding: 3%;
+  margin-right: 1rem;
+  border-bottom: 3px solid var(--addon-color);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  transition: transform 1s
 }
 
 .contactsubcontainer {
- display: flex;
- padding-top: 2rem;
- gap: 10%;
- flex-direction: row;
+  display: flex;
+  padding-top: 2rem;
+  gap: 10%;
+  flex-direction: row;
 }
 
 .textareastyle {
-    background-color: var(--primary-color);
-    color: var(--secondary-color);
-    outline: none;
-    width: 99%;
-    border-bottom: 3px solid var(--addon-color);
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    padding: 10%;
-    transition: transform 1s
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  outline: none;
+  width: 99%;
+  border-bottom: 3px solid var(--addon-color);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  padding: 10%;
+  transition: transform 1s
 }
 
 .inputstyle:focus {
@@ -50,14 +54,16 @@
   background-color: black;
   border-bottom: 3px solid var(--addon-color);
 }
+
 .textareastyle:focus {
   transform: scale(1.1);
   border-bottom: 3px solid var(--addon-color);
 }
 
-::-webkit-input-placeholder { /* Edge */
+::-webkit-input-placeholder {
+  /* Edge */
   color: var(--tertiary-color);
-  font-size: 15px; 
+  font-size: 15px;
 }
 
 .contactinput {
@@ -74,15 +80,14 @@
 
 @media only screen and (max-width: 1050px) {
 
-  .container {
-    padding: 30% 10% 5% 11%;
-  }
   .contactinput {
     width: 90%;
   }
+
   .contactelements {
     padding: 1rem 0rem 1rem 0rem;
   }
+
   .contactsubcontainer {
     display: inline-flex;
     flex-direction: column;
@@ -93,4 +98,18 @@
     width: 100%;
   }
 
+}
+
+@media only screen and (max-width: 430px) {
+  .container {
+    margin-top: 2rem;
+    padding: 1% 2% 0% 2%;
   }
+  .contactelements {
+    display: flex;
+  }
+  .contactsubelements {
+    padding: 1rem 0rem .5rem 0rem;
+  }
+  
+}

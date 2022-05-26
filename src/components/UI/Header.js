@@ -6,10 +6,10 @@ import AOS from "aos"
 import "aos/dist/aos.css"
 
 const Header = () => {
-    const [expanded, setExpanded] = useState(true)
+    const [expanded, setExpanded] = useState(false)
     useEffect(() => {
         AOS.init({
-            duration: 2000
+            duration: 1000
         });
     });
     const activeStyle = {
@@ -32,6 +32,7 @@ const Header = () => {
             return !previousState
         })
     }
+    console.log(expanded)
     return (
         <div >
             <div >
@@ -41,7 +42,7 @@ const Header = () => {
                     <span className={classes.line}></span>
                 </a>
             </div>
-            <div className={expanded ? classes.container : `${classes.container} ${classes.displayhamburger}`}>
+            <div data-aos-easing='ease-out-quad' data-aos='flip-right' className={expanded ? classes.container : `${classes.container} ${classes.displayhamburger}`}>
                     <div className={classes.navlinks}>
                         <NavLink className={classes.item} style={({ isActive }) =>
                             isActive ? activeStyle : inactiveStyle} to="/">Home</NavLink>

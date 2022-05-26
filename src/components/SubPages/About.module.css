@@ -1,16 +1,17 @@
 .container {
-    min-height: 20rem;
-    min-width: 20rem;
+    width: 100vw;
+    height: 100vh;
     max-width: 100rem;
+    max-height: 35rem;
     display: flex;
-    padding: 8% 12% 8% 4%;
+    padding: 8.5% 12% 8% 4%;
     flex-direction: row;
   }
 
 
 .img {
     border-radius: 50%;
-    max-width: 48%;
+    max-width: 49%;
     min-width: 40%;
     align-items: center;
     margin-left: 8%;
@@ -99,15 +100,44 @@ h2 {
   }
 }
 
-@media only screen and (max-width: 705px) {
+
+@media only screen and (max-width: 705px) { 
   .container {
-    padding-left: 20%;
+    padding: 8% 6% 8% 14%;
     flex-direction: column;
   }
   .img {
-    max-width: 80%;
+    max-width: 90%;
     margin-left: 50%;
 }
 
+}
 
+@media only screen and (max-width: 430px) { 
+  .container {
+    width: 100%;
+    padding: 17% 2% 0% 2%;
+  }
+  
+  .imagecontainer {
+    max-width: 100%;
+  }
+  .img {
+    max-width: 55%;
+    margin-left: 0%;
+}
+
+.detailcontainer {
+  text-align: center;
+}
+.headingcontainer {
+  margin-top: 2%;;
+}
+.descriptionitem {
+  font-size: 19px;
+}
+.buttoncontainer {
+  padding-top: 5%;
+  justify-content: center;
+}
 }

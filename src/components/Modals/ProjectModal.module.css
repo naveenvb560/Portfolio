@@ -32,6 +32,19 @@
     text-align: left;
 }
 
-/* .parentdiv {
-    padding: 1% 10% 1% 10%;
-} */
+
+@media only screen and (max-width: 430px) {
+  .cardcontainer {
+    margin-left: 0;
+    margin-right: 0;
+}
+.projectname {
+  font-size: 20px;
+  font-weight: 400;
+}
+.projectdetails {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+}

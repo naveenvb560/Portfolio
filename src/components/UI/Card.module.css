@@ -1,0 +1,16 @@
+
+ .cardcontainer {
+    transition: 0.3s;
+    border-radius: 25px;
+    padding: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background: linear-gradient(to left, #916f081a, #1e1e1eb3);
+ }    
+
+@media only screen and (max-width: 430px) {
+    .cardcontainer {
+      margin-left: 0;
+      margin-right: 0;
+  }
+  }

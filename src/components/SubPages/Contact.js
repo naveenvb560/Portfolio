@@ -22,11 +22,11 @@ const Contact = () => {
                     </div>
                 </div>
                 <div>
-                    <div className={classes.contactelements}>
+                    <div className={classes.contactsubelements}>
                         <h3>Email</h3>
                         <p>naveenvb560@gmail.com</p>
                     </div>
-                    <div className={classes.contactelements}>
+                    <div className={classes.contactsubelements}>
                         <h3>Adress</h3>
                         <p>Kumarakom, Kottayam, Kerala</p>
                     </div>

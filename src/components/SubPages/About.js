@@ -27,7 +27,7 @@ const About = () => {
                     <h2>Hello I'm <span style={{ color: "var(--addon-color)" }}>Naveen V B.</span><span style={{ display: "inline-block" }}>I'm a Software Engineer.</span></h2>
                 </div>
                 <div>
-                    <p>{AboutDescription}</p>
+                    <p className={classes.descriptionitem}>{AboutDescription}</p>
                 </div>
                 <div className={classes.buttoncontainer}>
                     <Button onClick={viewProjectHandler} >View Projects</Button>

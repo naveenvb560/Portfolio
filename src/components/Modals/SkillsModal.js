@@ -12,7 +12,7 @@ const SkillsModal = (props) => {
     }
 
     return (
-        <div style={{textAlign: "center", marginTop: "-5%", padding: "0 40px"}}>
+        <div className={classes.skillsmodalcontainer}>
         <div className={classes.circlewrap}>
         <div className={classes.circle}>
           <div style={stl} className={`${classes.mask} ${classes.full}`}>

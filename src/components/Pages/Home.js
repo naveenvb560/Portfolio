@@ -14,7 +14,7 @@ const Home = () => {
     });
     return (
         <div>
-            <div  data-aos='zoom-in-up'>
+            <div data-aos-easing='ease-out-quad' data-aos='zoom-in-up'>
                 <About></About>
             </div>
             <div  data-aos='fade-down-left'>
@@ -23,7 +23,7 @@ const Home = () => {
             <div  data-aos='fade-up-right'>
                 <Contact></Contact>
             </div>
-            <div>
+            <div style={{marginTop: "5rem"}}>
                 <Footer></Footer>
             </div>
 
