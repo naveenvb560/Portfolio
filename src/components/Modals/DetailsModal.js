@@ -1,7 +1,7 @@
 import React, {useEffect} from 'react'
 import ReactDOM from 'react-dom';
 import classes from './DetailsModal.module.css'
-import { getSkillsForProject, getProjects } from '../../Utils/utilFunctions'
+import { getSkillsForProject } from '../../Utils/utilFunctions'
 import AOS from "aos"
 import "aos/dist/aos.css"
 
@@ -20,8 +20,8 @@ const DetailsModal = (props) => {
             <div  data-aos='slide-right' data-aos-duration="4000">
                 <div className={classes.projectnamecontainer}>
                     <h4 className={classes.projectname}>{project.name}</h4>
-                    {project.status === 'completed' ? <img className={classes.projectIcon} src="https://img.icons8.com/fluency/96/000000/checked-truck.png" /> :
-                        <img className={classes.projectIcon} src="https://img.icons8.com/nolan/96/in-progress.png" />
+                    {project.status === 'completed' ? <img alt="icons" className={classes.projectIcon} src="https://img.icons8.com/fluency/96/000000/checked-truck.png" /> :
+                        <img alt="icons" className={classes.projectIcon} src="https://img.icons8.com/nolan/96/in-progress.png" />
                     }
                 </div>
                 <div>
@@ -50,8 +50,8 @@ const DetailsModal = (props) => {
             <div data-aos='slide-right' data-aos-duration="4000">
                 <div className={classes.projectnamecontainer}>
                     <h4 className={classes.projectname}>{experience.name}</h4>
-                    {experience.status === 'completed' ? <img className={classes.projectIcon} src="https://img.icons8.com/fluency/96/000000/checked-truck.png" /> :
-                        <img className={classes.projectIcon} src="https://img.icons8.com/nolan/96/in-progress.png" />
+                    {experience.status === 'completed' ? <img alt="icons" className={classes.projectIcon} src="https://img.icons8.com/fluency/96/000000/checked-truck.png" /> :
+                        <img alt="icons" className={classes.projectIcon} src="https://img.icons8.com/nolan/96/in-progress.png" />
                     }
                 </div>
                 <div>
@@ -85,7 +85,7 @@ const DetailsModal = (props) => {
                         { experience.awards? experience.awards.map((award) => <div key={award.id} ><li className={classes.listitems} >
                         <div className={classes.projectnamecontainer}>
                         <h5 className={classes.smallheading}>{award.name}</h5>
-                        <a href={award.link} download><img style={{width: "37%"}} src="https://img.icons8.com/plasticine/100/000000/certificate.png"/></a>
+                        <a href={award.link} download><img alt="icons" style={{width: "37%"}} src="https://img.icons8.com/plasticine/100/000000/certificate.png"/></a>
                         </div>
                         <p className={classes.awardetails}>{award.details}</p>
                         </li> 

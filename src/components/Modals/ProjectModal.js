@@ -31,7 +31,7 @@ const ProjectModal = (props) => {
                 {itemName === "experience" ?
                 <div className={classes.companyiconcontainer}>
                     <h4 className={classes.projectname}>{item.name}</h4>                  
-                  {item.id === 1 ? <img className={classes.companyicon} src={Wipro} />: <img className={classes.companyicon} src={TCS} /> }
+                  {item.id === 1 ? <img alt="icons" className={classes.companyicon} src={Wipro} />: <img alt="icons" className={classes.companyicon} src={TCS} /> }
                     
                 </div>:
                 <h4 className={classes.projectname}>{item.name}</h4> } </div>

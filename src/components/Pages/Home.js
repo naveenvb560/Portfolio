@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, {useEffect } from "react";
 import Footer from "../UI/Footer";
 import About from "../SubPages/About";
 import Education from "../SubPages/Education";
