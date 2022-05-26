@@ -6,7 +6,7 @@ import AOS from "aos"
 import "aos/dist/aos.css"
 
 const Header = () => {
-    const [expanded, setExpanded] = useState(false)
+    const [notexpanded, setnotexpanded] = useState(true)
     useEffect(() => {
         AOS.init({
             duration: 1000
@@ -28,21 +28,21 @@ const Header = () => {
 
 
     const hamburgerMenuHandler = () => {
-        setExpanded((previousState) => {
+        setnotexpanded((previousState) => {
             return !previousState
         })
     }
-    console.log(expanded)
+    console.log(notexpanded)
     return (
-        <div >
-            <div >
-                <a onClick={hamburgerMenuHandler} className={classes.hamburger}>
+        <div ><div >
+                <a onClick={hamburgerMenuHandler}
+                className={notexpanded ? classes.hamburger : `${classes.hamburger} ${classes.closehamburger}`}>
                     <span className={classes.line}></span>
                     <span className={classes.line}></span>
                     <span className={classes.line}></span>
                 </a>
-            </div>
-            <div data-aos-easing='ease-out-quad' data-aos='flip-right' className={expanded ? classes.container : `${classes.container} ${classes.displayhamburger}`}>
+            </div> 
+            <div data-aos-easing='ease-out-quad' data-aos='flip-right' className={notexpanded ? classes.container : `${classes.container} ${classes.displayhamburger}`}>
                     <div className={classes.navlinks}>
                         <NavLink className={classes.item} style={({ isActive }) =>
                             isActive ? activeStyle : inactiveStyle} to="/">Home</NavLink>

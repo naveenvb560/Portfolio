@@ -98,7 +98,7 @@ h2 {
     max-width: 1920px;
     margin: auto
   }
-}
+} 
 
 
 @media only screen and (max-width: 705px) { 
@@ -134,10 +134,18 @@ h2 {
   margin-top: 2%;;
 }
 .descriptionitem {
+  padding: 0 .5rem .3rem .5rem;
+  text-align: left;
   font-size: 19px;
 }
 .buttoncontainer {
   padding-top: 5%;
   justify-content: center;
+}
+}
+
+@media only screen and (max-width: 350px) { 
+.downloadbutton {
+  font-size: 14px;
 }
 }

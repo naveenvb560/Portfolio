@@ -15,7 +15,7 @@
   }
 
 .copyright {
-    font-size: 11px;
+    font-size: 13px;
 }
 
 .medialinkcontainer {
@@ -23,3 +23,27 @@
     width: 40%;
     justify-content: flex-end;
 }
+
+@media only screen and (max-width: 430px) {
+.footer  {
+  flex-direction: column;
+  align-items: center;
+}
+.copyright {
+  font-size: 12px;
+}
+
+.medialinkcontainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  flex-direction: row;
+}
+}
+
+
+/* @media only screen and (max-width: 350px) {
+  .hamburger {
+    left: 1rem;
+  }
+} */

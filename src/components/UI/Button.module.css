@@ -34,14 +34,15 @@
     transform:rotateX(90deg);
   }
 
-  @media only screen and (max-width: 430px) { 
+  @media only screen and (max-width: 350px) { 
     .rotatebutton {
-      width:150px;
-      height: 30px;
+      width:105px;
+      height: 25px;
+      font-size: 14px;
     }
     .rotatebutton .rotatebuttonface, .rotatebutton .rotatebuttonfaceback {
-      width:150px;
-      height: 30px;
-      line-height:30px;
+      width:105px;
+      height: 25px;
+      line-height:23px;
     }
   }

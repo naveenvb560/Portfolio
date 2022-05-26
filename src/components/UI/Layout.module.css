@@ -38,16 +38,6 @@
 
 }
 
-.shape53 {
-    position: fixed;
-    top: 70%;
-    left: 70%;
-    transform: rotate(140deg);
-    opacity: .2;
-    max-width: 15%;
-
-}
-
 body {
     background-color: var(--primary-color);
 

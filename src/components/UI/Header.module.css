@@ -59,6 +59,20 @@
   justify-content: space-around ;
 }
 
+.closehamburger {
+animation: movehamburger 1s forwards;
+}
+
+@keyframes movehamburger{
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateY(90%) rotate(90deg);
+  }
+}
+
+
 @media only screen and (max-width: 1050px) {
   .container {
     height: 100%;
@@ -114,6 +128,17 @@
 
 @media only screen and (max-width: 430px) {
   .container {
+    margin-top: 30px;
     width: 70%;
 }
+.hamburger {
+  left: 1rem;
+}
+}
+
+
+@media only screen and (max-width: 350px) {
+  .hamburger {
+    left: 1rem;
+  }
 }

@@ -82,3 +82,20 @@
     }
   }
   
+
+  @media only screen and (max-width: 330px) { 
+    .maincontainer {
+      margin: 16% 0% 0% 0%;
+      column-gap: 2%;
+      height: 100%;
+      }
+      .container {
+        margin: 7% 7% 0% 0%;
+        height: 100%;
+        column-gap: 3%;
+      }
+      .item {
+        max-width: 90%;
+      }
+    }
+    
