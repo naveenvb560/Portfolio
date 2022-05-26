@@ -14,7 +14,7 @@ function App() {
       <Layout>
         <Header />
         <Routes>
-      <Route  path='/' element={
+      <Route  path='*' element={
       <Home />
       } />
       <Route path='/Skills' element={<Skills />} />
