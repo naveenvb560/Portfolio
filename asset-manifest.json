@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.32a429fe.css",
-    "main.js": "/Portfolio/static/js/main.2262efe5.js",
+    "main.css": "/Portfolio/static/css/main.6d4a229a.css",
+    "main.js": "/Portfolio/static/js/main.7cc5c5c6.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/profile.jpg": "/Portfolio/static/media/profile.27f43a7db322f6947862.jpg",
+    "static/media/futura_medium_bt.ttf": "/Portfolio/static/media/futura_medium_bt.71d20cae1da6df8d2a23.ttf",
     "static/media/TCS.png": "/Portfolio/static/media/TCS.fdb0babe6d47782ec858.png",
-    "static/media/futura_medium_bt.ttf": "/Portfolio/static/media/futura_medium_bt.4e762c29ef7b44ca51cb.ttf",
     "static/media/Wipro.png": "/Portfolio/static/media/Wipro.e289e11b0016c070fa52.png",
     "static/media/shape1.png": "/Portfolio/static/media/shape1.0d7b1fb57c3d5c2fae13.png",
     "static/media/shape5.png": "/Portfolio/static/media/shape5.679dcb518c5f47ee3a2d.png",
@@ -13,12 +13,12 @@
     "static/media/linkedin.png": "/Portfolio/static/media/linkedin.acc69ee137bff96df096.png",
     "static/media/shape2.png": "/Portfolio/static/media/shape2.9a13b154acad97034116.png",
     "index.html": "/Portfolio/index.html",
-    "main.32a429fe.css.map": "/Portfolio/static/css/main.32a429fe.css.map",
-    "main.2262efe5.js.map": "/Portfolio/static/js/main.2262efe5.js.map",
+    "main.6d4a229a.css.map": "/Portfolio/static/css/main.6d4a229a.css.map",
+    "main.7cc5c5c6.js.map": "/Portfolio/static/js/main.7cc5c5c6.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.32a429fe.css",
-    "static/js/main.2262efe5.js"
+    "static/css/main.6d4a229a.css",
+    "static/js/main.7cc5c5c6.js"
   ]
 }
