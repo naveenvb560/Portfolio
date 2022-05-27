@@ -116,7 +116,7 @@ h2 {
 @media only screen and (max-width: 430px) { 
   .container {
     width: 100%;
-    padding: 17% 2% 0% 2%;
+    padding: 20% 2% 0% 2%;
   }
   
   .imagecontainer {
@@ -128,6 +128,9 @@ h2 {
 }
 
 .detailcontainer {
+  text-align: center;
+}
+.descriptionitem {
   text-align: center;
 }
 .headingcontainer {
@@ -145,7 +148,8 @@ h2 {
 }
 .downloadbutton {
   font-size: 14px;
-  font-weight: 200;
+  font-weight: 400;
+  color: var(--secondary-color);
 }
 }
 
