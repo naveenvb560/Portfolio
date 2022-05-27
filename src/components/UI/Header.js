@@ -53,7 +53,12 @@ const Header = () => {
                         <NavLink className={classes.item} style={({ isActive }) =>
                             isActive ? activeStyle : inactiveStyle} to="./Skills">Skills</NavLink></div>
                     <div className={classes.medialink}>
-                        <MediaLink />
+                        {notexpanded ? <MediaLink />: <div className={classes.submedialink}><div>
+                        <p className={classes.copyright} >@2022 | created & designed by Naveen V B</p> </div>
+                        <div className={classes.slidemenumedialink}>
+                            <MediaLink /> </div> </div>
+                        }
+                        
                     </div>
             </div>
         </div>

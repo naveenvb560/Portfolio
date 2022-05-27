@@ -27,7 +27,7 @@ const Contact = () => {
                         <p>naveenvb560@gmail.com</p>
                     </div>
                     <div className={classes.contactsubelements}>
-                        <h3>Adress</h3>
+                        <h3>Address</h3>
                         <p>Kumarakom, Kottayam, Kerala</p>
                     </div>
                 </div>

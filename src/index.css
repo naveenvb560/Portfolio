@@ -16,3 +16,7 @@
   font-family: 'Futura';
   src: local('Futura'), url(./assets/futura_medium_bt.ttf) format('truetype');
 }
+
+h3, p {
+  font-family: 'Futura';
+}

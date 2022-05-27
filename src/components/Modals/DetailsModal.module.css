@@ -133,6 +133,10 @@ line-height: 1.5;
     height: 85%;
     width: 90%;
   }
+  .details {
+    font-size: 18px;
+    }
+    
 }
 
 @media only screen and (max-width: 430px) { 
@@ -140,5 +144,8 @@ line-height: 1.5;
     margin: 14% 2.5%;
     height: 90%;
     width: 95%;
+  }
+  .details {
+    font-size: 15px;
   }
 }
