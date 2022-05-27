@@ -83,14 +83,14 @@ animation: movehamburger 1s forwards;
     justify-content: flex-start;
     gap: 5rem;
     align-items: flex-start !important;
-    z-index: 1;
+    z-index: 1;    
     top: 0;
     left: 0;
     display: none;
     margin-top: 0px !important;
     background-color: rgba(0,0,0,.9);
     box-shadow: 1px 1px 10px 1px rgb(32, 27, 4);
-    overflow-x: hidden;
+    overflow: auto;
     padding-top: 20%;
   }
   body {
@@ -120,7 +120,10 @@ animation: movehamburger 1s forwards;
   .item {
     transition: none !important;
   }
-
+  .item:hover {
+    transform: none !important; 
+  }
+  
   .copyright {
     text-align: center;
     font-size: 14px;
