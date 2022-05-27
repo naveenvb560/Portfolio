@@ -15,7 +15,7 @@ a:focus {
   left: 0;
   width: 100%;
   height: 100%;
-  background: var(--secondary-color);
+  background-color: rgba(0,0,0, .6);
   overflow-y: initial !important
 }
 
@@ -133,6 +133,7 @@ line-height: 1.5;
     height: 85%;
     width: 90%;
   }
+  .modalcontainer 
   .details {
     font-size: 18px;
     }
@@ -141,11 +142,13 @@ line-height: 1.5;
 
 @media only screen and (max-width: 430px) { 
   .modal {
-    margin: 14% 2.5%;
-    height: 90%;
-    width: 95%;
+    margin: 0;
+    padding: 3rem 2em;
+    height: 100%;
+    width: 100%;
   }
   .details {
     font-size: 15px;
   }
+
 }
