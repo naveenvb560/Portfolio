@@ -118,7 +118,7 @@ animation: movehamburger 1s forwards;
     margin-top: 65%;
   }
   .item {
-    transition: none;
+    transition: none !important;
   }
 
   .copyright {
