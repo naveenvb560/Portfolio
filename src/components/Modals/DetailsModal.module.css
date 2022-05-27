@@ -21,6 +21,7 @@ a:focus {
 
 .details {
 line-height: 1.5;
+font-family: 'Futura';
 }
 
 .modalcontainer:target {
@@ -143,12 +144,17 @@ line-height: 1.5;
 @media only screen and (max-width: 430px) { 
   .modal {
     margin: 0;
-    padding: 3rem 2em;
+    padding: 3.5rem 2em;
     height: 100%;
     width: 100%;
   }
   .details {
-    font-size: 15px;
+    font-size: 15px !important;
   }
-
+  .projectname {
+    font-size: 22px !important;
+  }
+  .smallheading {
+    font-size: 16px;
+  }
 }
