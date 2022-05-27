@@ -3,7 +3,7 @@
         top: 12%;
         left: 60%;
         transform: rotate(230deg);
-        opacity: .2;
+        opacity: .3;
         max-width: 15%;
         
 }
@@ -13,7 +13,7 @@
     top: 20%;
     left: 10%;
     transform: rotate(230deg);
-    opacity: .2;
+    opacity: .3;
     max-width: 15%;
     
 }
@@ -23,7 +23,7 @@
     top: 70%;
     left: 25%;
     transform: rotate(10deg);
-    opacity: .2;
+    opacity: .3;
     max-width: 15%;
 
 }
@@ -33,12 +33,12 @@
     top: 80%;
     left: 70%;
     transform: rotate(340deg);
-    opacity: .2;
+    opacity: .3;
     max-width: 15%;
 
 }
 
 body {
-    background-color: var(--primary-color);
+    background-color: var(--primary-color)
 
 }

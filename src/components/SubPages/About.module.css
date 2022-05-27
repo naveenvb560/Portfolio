@@ -130,13 +130,12 @@ h2 {
 .detailcontainer {
   text-align: center;
 }
-.descriptionitem {
-  text-align: center;
-}
 .headingcontainer {
   margin-top: 2%;;
 }
 .descriptionitem {
+  text-align: justify !important;
+  text-align-last: center;
   padding: 0 .5rem .3rem .5rem;
   text-align: left;
   font-weight: 300;

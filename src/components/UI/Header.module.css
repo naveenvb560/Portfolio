@@ -5,7 +5,7 @@
   left: 2rem;
   display: none;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-evenly;
   width: 30px;
   height: 21px;
   z-index: 1000;
@@ -19,6 +19,7 @@
   font-size: 22px; 
   margin-top: 20px;
   align-items: center;
+  justify-content: space-evenly;
 }
 
 .line {
@@ -89,7 +90,7 @@ animation: movehamburger 1s forwards;
     left: 0;
     display: none;
     margin-top: 0px !important;
-    background-color: rgba(0,0,0,.9);
+    background-color: var(--primary-color);
     box-shadow: 1px 1px 10px 1px rgb(32, 27, 4);
     overflow: auto;
     padding-top: 20%;

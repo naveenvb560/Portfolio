@@ -8,8 +8,12 @@
   --secondary-color: #b3d4d4;
   --tertiary-color: #8D9797;
   --addon-color: #916f08;
-  --container-grid-number: 3;
-  --container-skill-grid-number: 4;
+    /* --primary-color: #e9e8cd;
+  --secondary-color: #161515;
+  --tertiary-color: #0f3b3d;
+  --addon-color: #c4281d; */
+  --gradient: linear-gradient(to left, #916f081a, #1e1e1eb3);
+  /* --gradient: #fed9b7; */
 }
 
 @font-face {
