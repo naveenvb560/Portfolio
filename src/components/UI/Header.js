@@ -32,7 +32,10 @@ const Header = () => {
             return !previousState
         })
     }
-    console.log(notexpanded)
+    const closeModal=()=> {
+        setnotexpanded(true)
+    }
+
     return (
         <div ><div >
                 <a onClick={hamburgerMenuHandler}
@@ -44,13 +47,13 @@ const Header = () => {
             </div> 
             <div data-aos-easing='ease-out-quad' data-aos='flip-right' data-aos-once="true" className={notexpanded ? classes.container : `${classes.container} ${classes.displayhamburger}`}>
                     <div className={classes.navlinks}>
-                        <NavLink className={classes.item} style={({ isActive }) =>
+                        <NavLink onClick={closeModal} className={classes.item} style={({ isActive }) =>
                             isActive ? activeStyle : inactiveStyle} to="/">Home</NavLink>
-                        <NavLink className={classes.item} style={({ isActive }) =>
+                        <NavLink onClick={closeModal} className={classes.item} style={({ isActive }) =>
                             isActive ? activeStyle : inactiveStyle} to="./Projects">Projects</NavLink>
-                        <NavLink className={classes.item} style={({ isActive }) =>
+                        <NavLink onClick={closeModal} className={classes.item} style={({ isActive }) =>
                             isActive ? activeStyle : inactiveStyle} to="./Experiences">Experiences</NavLink>
-                        <NavLink className={classes.item} style={({ isActive }) =>
+                        <NavLink onClick={closeModal} className={classes.item} style={({ isActive }) =>
                             isActive ? activeStyle : inactiveStyle} to="./Skills">Skills</NavLink></div>
                     <div className={classes.medialink}>
                         {notexpanded ? <MediaLink />: <div className={classes.submedialink}><div>
