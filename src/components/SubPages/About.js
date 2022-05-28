@@ -14,11 +14,11 @@ const About = () => {
 
     const changeTheme =()=> {
         if(isDarkTheme) {
-            document.documentElement.style.setProperty('--primary-color',"#e9e8cd");
-            document.documentElement.style.setProperty('--secondary-color',"#161515");
-            document.documentElement.style.setProperty('--tertiary-color',"#0f3b3d");
-            document.documentElement.style.setProperty('--addon-color',"#c4281d");
-            document.documentElement.style.setProperty('--gradient',"#fed9b7");
+            document.documentElement.style.setProperty('--primary-color',"#e1dfdd");
+            document.documentElement.style.setProperty('--secondary-color',"#000000");
+            document.documentElement.style.setProperty('--tertiary-color',"#1b1b1b");
+            document.documentElement.style.setProperty('--addon-color',"#ff5100");
+            document.documentElement.style.setProperty('--gradient',"#6b676741");
             isDarkTheme = false }
             else {
                 document.documentElement.style.setProperty('--primary-color',"#000401");
