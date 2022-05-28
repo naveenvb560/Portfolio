@@ -120,7 +120,7 @@
   }
 
 
-  @media only screen and (max-width: 350px) { 
+  @media only screen and (max-width: 380px) { 
     .circlewrap {
       margin-top: 1.5rem;
       width: 3.5rem;
@@ -141,7 +141,7 @@
       width: 3rem;
       height: 3rem;
       line-height: 2.8rem;
-      margin-top: .26rem;
+      margin-top: .24rem;
       margin-left: .26rem;
       font-size: .6em;
     }
@@ -151,7 +151,7 @@
     }
     .text {
       padding: 16px 0px 16px 0px;
-      font-size: 12px;
+      font-size: 10px;
   }
   .skillsmodalcontainer {
     margin-top: -8%;

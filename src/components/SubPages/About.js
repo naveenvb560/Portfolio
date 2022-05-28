@@ -41,7 +41,7 @@ const About = () => {
             </div>
             <div className={classes.detailcontainer}>
                 <div className={classes.headingcontainer}>
-                    <h2>Hello I'm <span style={{ color: "var(--addon-color)" }}>Naveen V B.</span><span style={{ display: "inline-block" }}>I'm a Software Engineer.</span></h2>
+                    <h2>Hello I'm <span style={{ color: "var(--addon-color)" }}>Naveen V B. </span><span style={{ display: "inline-block" }}> I'm a Software Engineer.</span></h2>
                 </div>
                 <div>
                     <p className={classes.descriptionitem}>{AboutDescription}</p>
