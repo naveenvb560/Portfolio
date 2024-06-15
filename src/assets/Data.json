@@ -98,6 +98,16 @@
             "experiencelist": [
                 2
             ]
+        },
+        {
+            "id": 9,
+            "name": "Azure",
+            "percentage": 45,
+            "projectlist": [
+            ],
+            "experiencelist": [
+                2
+            ]
         }
     ],
     "Experience": [
@@ -164,7 +174,13 @@
             "designation": "System Engineer",
             "skills":[
                 1,
-                6
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9
             ],
 
             
