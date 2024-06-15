@@ -14,12 +14,12 @@ function App() {
       <Layout>
         <Header />
         <Routes>
-      <Route  path='*' element={
+      <Route  path='/Portfolio' element={
       <Home />
       } />
-      <Route path='/Skills' element={<Skills />} />
-      <Route path='/Projects' element={<Project />} />
-      <Route path='/Experiences' element={<Experience />} />
+      <Route path='/Portfolio/Skills' element={<Skills />} />
+      <Route path='/Portfolio/Projects' element={<Project />} />
+      <Route path='/Portfolio/Experiences' element={<Experience />} />
       </Routes>
       </Layout>
   );
