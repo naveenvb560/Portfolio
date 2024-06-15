@@ -29,7 +29,7 @@
         },
         {
             "id": 3,
-            "name": "Tool Design",
+            "name": "System Design",
             "percentage": 75,
             "projectlist": [
                 1,
@@ -73,6 +73,30 @@
             ],
             "experiencelist": [
                 1
+            ]
+        },
+        {
+            "id": 7,
+            "name": "NestJS",
+            "percentage": 85,
+            "projectlist": [
+                1,
+                2
+            ],
+            "experiencelist": [
+                2
+            ]
+        },
+        {
+            "id": 8,
+            "name": "NodeJS",
+            "percentage": 85,
+            "projectlist": [
+                1,
+                2
+            ],
+            "experiencelist": [
+                2
             ]
         }
     ],
@@ -132,11 +156,11 @@
             "id": 2,
             "name": "Tata consultancy service",
             "description": "Joined on May 2022 as a System Engineer, dedicated to enabling a future-ready workforce and offers many learning experiences that focus on reskilling and upskilling. Continuing my Journey.",
-            "details": "Recently joined, started to work as a react developer, working as a team with size of 5, using reactjs, redux and typescript",
+            "details": "Started to work as a react developer, using reactjs, redux and typescript, currently working as a full stack developer, got exposure to system integration and learned new technologies.",
             "months": 1,
             "joined_date": "09/05/2022",
             "resigned_date": "NA",
-            "status": "in porgress",
+            "status": "in progress",
             "designation": "System Engineer",
             "skills":[
                 1,
@@ -144,7 +168,13 @@
             ],
 
             
-            "awards": []
+            "awards": [
+                {
+                    "id": 1,
+                    "name": "Best team Award",
+                    "details": "Awarded Best Team for outstanding contributions and collaboration"
+                }
+            ]
         }
     ],
     "projects": [
