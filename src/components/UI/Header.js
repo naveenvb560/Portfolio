@@ -48,13 +48,13 @@ const Header = () => {
             <div data-aos-easing='ease-out-quad' data-aos='flip-right' data-aos-once="true" className={notexpanded ? classes.container : `${classes.container} ${classes.displayhamburger}`}>
                     <div className={classes.navlinks}>
                         <NavLink onClick={closeModal} className={classes.item} style={({ isActive }) =>
-                            isActive ? activeStyle : inactiveStyle} to="/Portfolio">Home</NavLink>
+                            isActive ? activeStyle : inactiveStyle} to="/">Home</NavLink>
                         <NavLink onClick={closeModal} className={classes.item} style={({ isActive }) =>
-                            isActive ? activeStyle : inactiveStyle} to="/Portfolio/Projects">Projects</NavLink>
+                            isActive ? activeStyle : inactiveStyle} to="/Projects">Projects</NavLink>
                         <NavLink onClick={closeModal} className={classes.item} style={({ isActive }) =>
-                            isActive ? activeStyle : inactiveStyle} to="/Portfolio/Experiences">Experiences</NavLink>
+                            isActive ? activeStyle : inactiveStyle} to="/Experiences">Experiences</NavLink>
                         <NavLink onClick={closeModal} className={classes.item} style={({ isActive }) =>
-                            isActive ? activeStyle : inactiveStyle} to="/Portfolio/Skills">Skills</NavLink></div>
+                            isActive ? activeStyle : inactiveStyle} to="/Skills">Skills</NavLink></div>
                     <div className={classes.medialink}>
                         {notexpanded ? <MediaLink />: <div className={classes.submedialink}><div>
                         <p className={classes.copyright} >@2022 | created & designed by Naveen V B</p> </div>
