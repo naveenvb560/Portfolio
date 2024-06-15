@@ -49,7 +49,7 @@ const About = () => {
                 </div>
                 <div className={classes.buttoncontainer}>
                     <Button onClick={viewProjectHandler} >View Projects</Button>
-                    <a className={classes.downloadbutton} href="https://drive.google.com/file/d/1ojwbMiNb54Ny1fOcnbBpBGTsOZ3RPnkZ/view?usp=sharing" target="_blank">
+                    <a className={classes.downloadbutton} href="https://drive.google.com/file/d/1TAH3VQv_O1anNuN8FI4D_G9Q8dzavyYL/view?usp=drive_link" target="_blank">
                         <label style={{fontFamily:'Futura'}}>Download Resume</label></a>
                 </div>
             </div>
